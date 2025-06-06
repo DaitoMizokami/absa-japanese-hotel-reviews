@@ -1,0 +1,71 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>第三十屆應用類(或學術類)畢業專題頂石課程(一)期末報告</title>
+    <link rel="canonical" href="https://popo-design.net/template/">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<link rel="icon" type="image/png" href="img/favicon.png">
+<link rel="stylesheet" media="all" href="css/ress.min.css" />
+<link rel="stylesheet" media="all" href="css/style.css" />
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/style.js"></script>
+	
+<!-- Favicon -->
+<link rel="icon" type="image/png" href="img/favicon.png">
+    
+</head>
+<body>
+<header>    
+<div class="container">
+<div class="row">
+    <div class="col span-12 header">
+        <h1><a href="index.html">第三十屆應用類(或學術類)畢業專題頂石課程(一)期末報告</a></h1>
+		<div class="header-box"></div>
+        </div>
+    </div>
+<div class="row">
+    <div class="col span-12">
+        <nav>
+          <div id="open"></div>
+          <div id="close"></div>   
+            <div id="navi">
+        <ul>
+            <li><a href="index.html">Top</a></li>
+            <li><a href="chapter1.html">1. 緒論</a></li>
+            <li><a href="chapter2.html">2. 相關技術與研究</a></li>
+            <li><a href="chapter3.html">3. 研究方法</a></li>
+            <li><a href="chapter4.html">4. 實驗結果或系統展示</a></li>
+            <li><a href="chapter5.html">5. 結論</a></li>
+            <li><a href="appendix.html">附錄</a></li>
+         </ul>
+             </div>
+        </nav>
+    
+        </div>
+    </div>
+    </div>
+</header>
+
+<h1 class="chapter">5.	結論</h1>
+<section class="gray-back">
+  <div class="container center">
+    <div class="row">
+　本專題以日文飯店評論為對象，專注於 Aspect-Based Sentiment Analysis（ABSA）中之「面向詞抽取（Aspect Extraction）」的資料整備與標註作業。評論文本來源為樂天旅遊網站，內容包含使用者實際體驗所撰寫之自然語言描述。
+在作業過程中，我們利用標註工具，從句子中抽取出「面向詞（Aspect，評價對象）」與「評價詞（Opinion，意見）」，並依據「Entity（實體對象）」與「Attribute（評價觀點）」的組合，設計分類體系進行分類。<br>
+　在標註規則方面，我們制定了例如去除敬語、保留副詞、保留連體形等原則，以統一格式與提升一致性。最終，兩名標註者共處理了100筆以上的評論句，成功建立出一套基礎的日文 ABSA 資料集。<br>
+透過此次作業，我們實際體驗了自然語言處理中針對日文 ABSA 的基礎應用。特別是針對「針對何者」、「從哪一觀點」進行評價的結構化標註，使情感分析更具精確性與分析價值。此外，針對評價詞所制定的詳細規則亦提升了標註的一致性，進而有助於提升分析準確度。<br>
+然而，在面向詞與評價詞邊界模糊、主觀性過強、或評價觀點重疊等句子中，標註時常面臨困難，標註者之間的理解與判斷差異也因此成為一項挑戰。加上自然語言表達形式多變，僅靠事前制定的規則難以完全涵蓋所有情況。目前的標註一致率約為50％。<br>
+未來的課題包括進一步明確與細化標註指南、定期進行標註者間的交叉檢查與意見交流，並以標註一致率達成70％以上為目標。<br>
+此外，我們亦計劃以本次建立的資料集為基礎，導入可自動抽取面向詞的機器學習模型，並致力於模型準確率的驗證與改良。同時，透過擴大資料規模與語料多樣性，建立更具實用性的日文 ABSA 資料集，期望未來可應用於觀光產業與評論分析等領域，作為本專題的延伸發展目標。
+
+  </div>
+</section>
+<footer class="copyright">
+    <a class="copyright">© 2025 元智大學資訊管理學系 畢業專題</a>
+</footer>
+</body>
+</html>

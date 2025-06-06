@@ -1,0 +1,93 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>第三十屆應用類(或學術類)畢業專題頂石課程(一)期末報告</title>
+    <link rel="canonical" href="https://popo-design.net/template/">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<link rel="icon" type="image/png" href="img/favicon.png">
+<link rel="stylesheet" media="all" href="css/ress.min.css" />
+<link rel="stylesheet" media="all" href="css/style.css" />
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/style.js"></script>
+	
+<!-- Favicon -->
+<link rel="icon" type="image/png" href="img/favicon.png">
+    
+</head>
+<body>
+<header>    
+<div class="container">
+<div class="row">
+    <div class="col span-12 header">
+        <h1><a href="index.html">第三十屆應用類(或學術類)畢業專題頂石課程(一)期末報告</a></h1>
+		<div class="header-box"></div>
+        </div>
+    </div>
+<div class="row">
+    <div class="col span-12">
+        <nav>
+          <div id="open"></div>
+          <div id="close"></div>   
+            <div id="navi">
+        <ul>
+            <li><a href="index.html">Top</a></li>
+            <li><a href="chapter1.html">1. 緒論</a></li>
+            <li><a href="chapter2.html">2. 相關技術與研究</a></li>
+            <li><a href="chapter3.html">3. 研究方法</a></li>
+            <li><a href="chapter4.html">4. 實驗結果或系統展示</a></li>
+            <li><a href="chapter5.html">5. 結論</a></li>
+            <li><a href="appendix.html">附錄</a></li>
+         </ul>
+             </div>
+        </nav>
+    
+        </div>
+    </div>
+    </div>
+</header>
+
+<h1 class="chapter">2. 相關技術與研究</h1>
+<section>
+    <div class="container center">
+        <div class="row">
+在本章中，將介紹本專題所探討之基於面向的情感分析（Aspect-Based Sentiment Analysis, ABSA）相關的基本技術，以及近年情感分析領域中的主要方法。特別聚焦於自然語言處理領域中廣泛應用的深度學習模型與前處理方法等，說明實作過程中所需的關鍵要素。 </div>
+</section>
+<section class="gray-back">
+  <h2 class="center"><span class="under">2.1 情感分析與ABSA的基礎</span></h2>
+  
+  <div class="container center">
+    <h3 class="center">2.1.1	情感分析的概要</h3>
+    <div class="row">
+    情感分析是一種從文字中讀取意見或感想，並判斷其屬於「正面（Positive）」、「負面（Negative）」或「中立（Neutral）」的技術。分析對象涵蓋各種形式的文本，如社群媒體貼文、評論網站內容、客戶詢問紀錄等。
+    <br>※本專題不涵蓋此步驟。
+  </div>
+  <br>
+
+  <div class="container center">
+    <h3 class="center">2.1.2	ABSA（基於面向的情感分析）</h3>
+    <div class="row">
+    ABSA 是情感分析中一種更為細緻的分析方法，其目的是針對文本中所包含的各個面向（評價對象），判斷其分別所對應的情感傾向。例如，在一則飯店評論中提到：「地點很方便，但早餐有些令人失望」，則可分別分析為「地點＝正面」、「早餐＝負面」，如此便能從多個觀點進行情感評估。
+    <br>本專題聚焦於此類句子中，自動抽取如「地點」「早餐」等面向詞（Aspect Term）的部分。
+    </div>
+  </div>
+
+</section>
+<section>
+  <h2 class="center"><span class="under">2.2 ABSA的課題與展望</span></h2>
+  <div class="container center"> 
+    <div class="row">
+    ABSA 在技術上仍面臨數項挑戰。例如，有些評論文中並未明確指出面向詞（Aspect），必須依靠上下文進行推測。此外，日語中常見的模糊表達、委婉的否定或間接的建議語句等，也會使模型的判斷變得更加困難。為了解決這些問題，不僅需要提升模型的準確度，還必須在標註方法上加以創新，並強化模型的語境理解能力。
+    <br>
+    本專題即是以提升面向詞抽取的準確性為目標，同時兼顧日語中獨特的語言表達與句法特性。
+    </div>
+  </div>
+</section>
+<footer class="copyright">
+    <a class="copyright">© 2025 元智大學資訊管理學系 畢業專題</a>
+</footer>
+</body>
+</html>

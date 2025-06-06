@@ -1,0 +1,189 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>第三十屆應用類(或學術類)畢業專題頂石課程(一)期末報告</title>
+    <link rel="canonical" href="https://popo-design.net/template/">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<link rel="icon" type="image/png" href="img/favicon.png">
+<link rel="stylesheet" media="all" href="css/ress.min.css" />
+<link rel="stylesheet" media="all" href="css/style.css" />
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/style.js"></script>
+	
+<!-- Favicon -->
+<link rel="icon" type="image/png" href="img/favicon.png">
+    
+</head>
+<body>
+<header>    
+<div class="container">
+<div class="row">
+    <div class="col span-12 header">
+        <h1><a href="index.html">第三十屆應用類(或學術類)畢業專題頂石課程(一)期末報告</a></h1>
+		<div class="header-box"></div>
+        </div>
+    </div>
+<div class="row">
+    <div class="col span-12">
+        <nav>
+          <div id="open"></div>
+          <div id="close"></div>   
+            <div id="navi">
+        <ul>
+            <li><a href="index.html">Top</a></li>
+            <li><a href="chapter1.html">1. 緒論</a></li>
+            <li><a href="chapter2.html">2. 相關技術與研究</a></li>
+            <li><a href="chapter3.html">3. 研究方法</a></li>
+            <li><a href="chapter4.html">4. 實驗結果或系統展示</a></li>
+            <li><a href="chapter5.html">5. 結論</a></li>
+            <li><a href="appendix.html">附錄</a></li>
+         </ul>
+             </div>
+        </nav>
+    
+        </div>
+    </div>
+    </div>
+</header>
+
+<h1 class="chapter">3. 研究方法</h1>
+<section class="gray-back">
+  <h2 class="center"><span class="under">研究設定</span></h2>
+  <div class="container center">
+    <div class="row">
+    在使用飯店評論來訓練情感分析模型的過程中，指導教授建議我們採用 ABSA（基於面向的情感分析）的方法。透過 ABSA 分析，模型可以從評論文本中抽取單詞或片語（面向詞，Aspect），並判斷其所對應的情感極性。<br>
+    因此，我們曾向樂天提出資料集使用的申請，原本預定使用樂天的飯店評論作為資料來源。<br>
+    （然而，我們雖然向樂天遞交了資料集使用申請，但未能獲得正式回覆。<br>
+    因此，作為替代方案，我們自行對樂天旅遊網站上所刊載的飯店評論進行了網路爬蟲處理，最終收集了共計1081則評論。）
+    </div>
+</div>
+</section>
+<section>
+  <h2 class="center"><span class="under">資料前處理</span></h2>
+  <div class="container center">
+    <p>
+      我們隨後進行了對爬蟲取得的資料進行前處理的作業。資料前處理是指，對已完成爬蟲的評論資料加上面向（Aspect）、評價詞（Opinion）、情感極性等標註，使其成為可供實際分析的狀態。此外，由於分析時需將評論按句分割，我們使用 Python 進行了句子抽取與屬性標註的處理。處理結果如下所示。
+    </p>
+
+    <div style="display: flex; gap: 2rem; justify-content: center; align-items: flex-start; flex-wrap: wrap;">
+      <div style="text-align: center;">
+        <p>・原始資料</p>
+        <img src="img/3-1.png" alt="原始資料" style="width: auto; max-width: none; height: auto;">
+      </div>
+
+      <div style="text-align: center;">
+        <p>・前處理後的資料</p>
+        <img src="img/3-2.png" alt="前處理後資料" style="width: auto; max-width: none; height: auto;">
+      </div>
+    </div>
+    <p>如上所述，我們成功地從評論文本中擷取出單句，並加上了 aspect（面向）、opinion（評價詞）、sentiment（情感極性）、entity（實體）、sentence（句子）、hotel_id（飯店編號）等資訊，雖然已能準確標註各個 opinion，然而指導教授對此仍表示保留。
+其原因如下所示。</p>
+  </div>
+</section>
+
+
+<section class="gray-back">
+  <h2 class="center"><span class="under">①aspect（面向）與 opinion（評價詞）之間的關聯性不穩定。</span></h2>
+    <div style="display: flex; gap: 2rem; justify-content: center; align-items: flex-start; flex-wrap: wrap;">
+      <div style="text-align: center;">
+        <p>・原始資料</p>
+        <img src="img/3-3.png" alt="原始資料" style="width: auto; max-width: none; height: auto;">
+      </div>
+
+      <div style="text-align: center;">
+        <p>・處理後的資料</p>
+        <img src="img/3-4.png" alt="前處理後資料" style="width: auto; max-width: none; height: auto;">
+      </div>
+          <p>如上所示，「車站（location）」這個面向被誤標註為「美味」這樣的評價詞（opinion）。
+這是因為該標註程式依賴於單詞的共現關係，當一個句子中出現多個情感表達時，經常會發生錯誤分類的情況。
+    </p>
+    </div>
+</section>
+
+<section>
+  <h2 class="center"><span class="under">②未確定 Entity 與 Attribute</span></h2>
+  <div class="container center">
+    <p>
+      在本次的標註作業中，我們尚未明確指定要分析的 Entity（評價對象），也尚未設定 Attribute（評價觀點）。
+ 因此，指導教授指示我們必須明確劃分資料中的 Entity 與 Attribute，並要求我們對於情感極性（Sentiment）部分進行手動標註。
+ 此外，教授也提供了先行研究中所使用的 Python 程式碼（可對評論句進行手動 ABSA 標註的工具），溝上同學則參考該程式，重新撰寫了符合我們研究需求的 Python 程式碼。
+基於上述背景，我們決定以以下方式推進研究：
+ <br>
+・關於 Entity 與 Attribute 的定義，我們依照教授指定的參考論文內容，直接採用其中所列的分類方式，內容如下所示。
+    </p>
+    <div style="display: flex; gap: 2rem; justify-content: center; align-items: flex-start; flex-wrap: wrap;">
+      <div style="text-align: center;">
+        <img src="img/3-5.png" alt="原始資料" style="width: auto; max-width: none; height: auto;">
+      </div>
+    </div>
+    <p>・我們調整了教授提供的程式碼，並使用該工具手動進行 ABSA 標註作業。在此過程中，兩人一組分別對各自的50筆資料進行標註，之後再相互確認對 Opinion、Entity 等的選擇是否一致。
+ 透過這樣的方式，可以提升用於機器學習的資料品質，進而增強模型的效能。
+
+目前，我們正依照此方針推進研究。此外，標註結果的相符率需達到至少70%。 
+</p>
+  </div>
+</section>
+
+<section class="gray-back" style="background-color: #f5f5f5; padding: 2rem 1rem;">
+  <h2 class="center"><span class="under">標註作業</span></h2>
+  <div class="container center" style="max-width: 1000px; margin: auto;">
+
+    <p>透過此工具，可將資料中的評論逐句擷取，並進行人工標註。</p>
+
+    <div style="display: flex; gap: 2rem; justify-content: center; flex-wrap: wrap; margin-bottom: 2rem;">
+      <div style="text-align: center;">
+        <p><strong>・工具輸入畫面</strong></p>
+        <img src="img/3-6.png" alt="工具輸入畫面" style="max-width: 100%; height: auto; border: 1px solid #ccc; box-shadow: 2px 2px 6px rgba(0,0,0,0.1);">
+      </div>
+    </div>
+
+    <p>接著由兩名成員實際進行標註作業，並獲得了如下結果：</p>
+
+    <div style="display: flex; gap: 2rem; justify-content: center; flex-wrap: wrap; margin-bottom: 2rem;">
+      <div style="text-align: center;">
+        <p><strong>標註結果 A</strong></p>
+        <img src="img/3-7.png" alt="標註結果 A" style="max-width: 100%; height: auto; border: 1px solid #ccc; box-shadow: 2px 2px 6px rgba(0,0,0,0.1);">
+      </div>
+
+      <div style="text-align: center;">
+        <p><strong>標註結果 B</strong></p>
+        <img src="img/3-8.png" alt="標註結果 B" style="max-width: 100%; height: auto; border: 1px solid #ccc; box-shadow: 2px 2px 6px rgba(0,0,0,0.1);">
+      </div>
+    </div>
+
+    <p>如上所示，兩人之間在標註結果上出現了差異。根據這些結果，暴露出以下幾點問題：</p>
+    <ul style="text-align: left; max-width: 800px; margin: auto; line-height: 1.7;">
+      <li>關於是否應在標註中包含助動詞、接尾詞、敬語等內容，雙方意見不一致</li>
+      <li>對於日語中常見的省略主語句型，雙方在 Aspect（面向）的設定上略有不同</li>
+      <li>Aspect 與 Opinion 若以長句標註，反而不如以單詞標註來得合適</li>
+      <li>在 Category 的標註上，因如「Quality」或「General」等標籤涵蓋範圍過廣，容易產生不同解釋，導致標註不一致</li>
+    </ul>
+
+    <p style="margin-top: 2rem;">因此，我們新增了如下標註規則：</p>
+    <ul style="text-align: left; max-width: 800px; margin: auto; line-height: 1.7;">
+      <li>統一所擷取單詞的形式</li>
+      <li>若無適當的 Aspect，則統一標記為 NULL</li>
+    </ul>
+
+    <p style="margin-top: 2rem;">在依據新規則進行第二次標註後，結果如下：</p>
+    <ul style="text-align: left; max-width: 800px; margin: auto; line-height: 1.7;">
+      <li>Aspect 的一致率由 52% 提升至 59%</li>
+      <li>Opinion 的一致率由 20% 提升至 50%</li>
+      <li>Category 的一致率由 20% 提升至 39%</li>
+    </ul>
+
+    <p style="margin-top: 1.5rem;">上述數據顯示，標註準則的統一有助於整體一致性的提升。</p>
+  </div>
+</section>
+
+
+
+<footer class="copyright">
+    <a class="copyright">© 2025 元智大學資訊管理學系 畢業專題</a>
+</footer>
+</body>
+</html>
