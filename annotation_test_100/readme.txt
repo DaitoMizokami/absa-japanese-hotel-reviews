@@ -1,0 +1,7 @@
+shogo, yuはAnnotationSplit_part1.csvを担当してください。
+rikuto, tomokiはAnnotationSplit_part2.csvを担当してください。
+
+rakuten_annotation.pyにはデフォルトの読み取り先がAnnotationSplit_part1.csvになっているので、tomoki, rikutoはこの部分をAnnotationSplit_part2.csvに変更してください。
+編集する部分はコメントアウトにて記載しています。
+
+ターミナルで通常通りrakuten_annotation.pyを実行してください
