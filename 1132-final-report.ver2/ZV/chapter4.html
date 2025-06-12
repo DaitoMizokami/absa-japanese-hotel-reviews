@@ -1,0 +1,118 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>第三十屆應用類(或學術類)畢業專題頂石課程(一)期末報告</title>
+<link rel="canonical" href="https://popo-design.net/template/">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<link rel="icon" type="image/png" href="img/favicon.png">
+<link rel="stylesheet" media="all" href="css/ress.min.css" />
+<link rel="stylesheet" media="all" href="css/style.css" />
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/style.js"></script>
+<style>
+  body { font-family: 'Yu Gothic', 'Hiragino Kaku Gothic ProN', sans-serif; line-height: 1.8; background: #fff; color: #333; padding: 1rem; }
+  h1.chapter, h2.center { text-align: center; margin-top: 2rem; color: #333; }
+  h2 span.under { border-bottom: 3px solid #555; padding-bottom: 4px; }
+  .container { max-width: 1000px; margin: auto; padding: 1rem; }
+  .gray-back { background-color: #f9f9f9; padding: 2rem 0; }
+  .row { margin-bottom: 1.5rem; }
+  p { margin-bottom: 1rem; text-align: justify; }
+  ul { padding-left: 1.5rem; margin-bottom: 1rem; }
+  img { max-width: 100%; height: auto; border: 1px solid #ccc; box-shadow: 2px 2px 6px rgba(0,0,0,0.1); }
+  footer.copyright { text-align: center; margin-top: 4rem; font-size: 0.9rem; color: #777; }
+</style>
+</head>
+<body>
+<header>    
+  <div class="container">
+    <div class="row">
+      <div class="col span-12 header">
+        <h1><a href="index.html">第三十屆應用類(或學術類)畢業專題頂石課程(一)期末報告</a></h1>
+        <div class="header-box"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col span-12">
+        <nav>
+          <div id="open"></div>
+          <div id="close"></div>   
+          <div id="navi">
+            <ul>
+              <li><a href="index.html">Top</a></li>
+              <li><a href="chapter1.html">1. 緒論</a></li>
+              <li><a href="chapter2.html">2. 相關技術與研究</a></li>
+              <li><a href="chapter3.html">3. 研究方法</a></li>
+              <li><a href="chapter4.html">4. 實驗結果或系統展示</a></li>
+              <li><a href="chapter5.html">5. 結論</a></li>
+              <li><a href="appendix.html">附錄</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+
+<h1 class="chapter">4. 實驗結果或系統展示</h1>
+
+<section class="gray-back">
+  <h2 class="center"><span class="under">4.1	面向詞抽取標記的實施方法</span></h2>
+  <div class="container center">
+    <div class="row">
+      本專題以刊載於樂天旅遊網站的日文飯店評論為對象，作為 Aspect-Based Sentiment Analysis（ABSA）的一環，專注於進行面向詞（Aspect）的人工標記作業。
+      這些評論來自實際住宿過的顧客，所撰寫內容多為其對服務與設施的主觀印象，語言自然且表達方式多樣。
+      本次標記作業由兩名成員負責，共對100筆評論文本進行手動面向資訊標記。作業內容主要針對評論句中的以下三項元素進行標籤設定：
+
+      • 面向詞（Aspect Term）：作為評價對象的具體名詞或名詞片語（如：「房間」、「溫泉」、「早餐」等）<br>
+      • 評價詞（Opinion）：表示對面向詞評價的詞語，包含形容詞、副詞、形容動詞等（如：「美味」、「乾淨」、「遺憾」等）<br>
+      • 面向分類（Aspect Category）：對已抽出的面向詞依屬性劃分為7類（如：HOTEL、ROOMS、FACILITIES 等）<br>
+      • 評價詞分類（Opinion Category）：對已抽出的評價詞依屬性劃分為8類（如：GENERAL、PRICE、COMFORT 等）<br><br>
+      關於「評價詞（Opinion）」的標記，為提高標記的一致性與準確性，我們制定了以下規則：<br>
+      • 連體形（形容詞的接續形式）保持原樣紀錄：例如：「楽しくて」即記錄為「楽しくて」，以保留語句自然結構，並明確呈現語境中的評價。<br>
+      • 敬語或禮貌語予以去除，以基本形紀錄：例如：「楽しかったです」轉換為「楽しかった」，以更抽象且客觀地處理情感內容。<br>
+      • 附帶副詞的評價詞一併紀錄修飾語：例如：「とても楽しい」記錄為「とても楽しい」，而非單純記為「楽しい」，以保留強調語氣的分析價值。<br>
+      藉由這些標記規則，我們得以減少表達上的差異性，確保後續分析與自動處理過程中，資料具備高度一致性與可用性。
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2 class="center"><span class="under">4.2 抽取結果的具體範例與傾向</span></h2>
+  <div class="container center">
+    <p> 以下列出實際進行標記的評論句，以及從中所抽取出的面向詞（Aspect）與評價詞（Opinion）的範例：</p>
+    <div style="display: flex; gap: 2rem; justify-content: center; flex-wrap: wrap; margin-bottom: 2rem;">
+      <div style="text-align: center;">
+        <img src="img/4-1.png" alt="4-1">
+      </div>
+      <div style="text-align: center;">
+        <img src="img/4-2.png" alt="4-2">
+      </div>
+    </div>
+    <p> 
+      所抽取出的面向詞多集中於「早餐」、「房間」、「地點」、「服務」等住宿體驗中的主要構成要素。此外，在單一句子中出現多個面向詞的情況亦相當常見，特別是在如「房間很乾淨，溫泉也很不錯」這類含有複合評價的句子中，需同時抽取多個面向詞。
+    在評價詞的表現上，除了常見的形容詞如「方便」、「乾淨」、「滿意」、「狹窄」、「失望」之外，也觀察到與副詞結合的用法（如「非常」、「有點」、「超級」等），使評價的強度產生變化。這樣的表現形式可作為進一步理解在面向層級上的情感強弱之基礎資訊，具有應用潛力。</p>
+  </div>
+</section>
+
+<section class="gray-back">
+  <h2 class="center"><span class="under">4.3 從標記作業中發現的課題與反思</span></h2>
+  <div class="container center">
+    <div class="row">
+      在進行標記作業的過程中，我們發現了以下幾點問題與啟發：<br>
+      面向詞與評價詞之間的界線在許多表達中相當模糊，若無明確規則判斷，容易導致標記者間的標準不一致。<br>
+      對於「工作人員」、「應對」、「設施」等抽象程度較高的名詞，是否可作為面向詞的判斷標準尚不明確，因此需要與類別（Category）設定一併進行更具體的指引制定。<br>
+      即使是相同的面向詞，根據不同的語境，也會被歸類至不同的面向分類中。例如，「房間」可能被歸為「Rooms#Size」，也可能被歸為「Rooms#Cleanliness」。<br>
+      對於如「還可以」、「普通」等中立或模糊的評價，以及帶有諷刺、間接表達的評論，進行準確標記存在一定困難。<br>
+      為了提升今後的標記品質，建議在標記流程中加入多人交叉檢查機制，並於作業前設置詳細的規則確認階段。此外，未來亦可嘗試利用本次建立的標記資料，開發機器學習模型以實現面向詞的自動抽取，作為後續的研究發展方向。
+    </div>
+  </div>
+</section>
+
+<footer class="copyright">
+  <a class="copyright">© 2025 元智大學資訊管理學系 畢業專題</a>
+</footer>
+</body>
+</html>
