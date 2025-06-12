@@ -1,0 +1,3171 @@
+{
+    "G2Ul6CnqtIbgv5SvoLfaCg": {
+        "sentence": "全体的にとてもきれいな施設でフロントの対応もよかった",
+        "annotator_a": {
+            "ID": "G2Ul6CnqtIbgv5SvoLfaCg",
+            "Sentence": "全体的にとてもきれいな施設でフロントの対応もよかった",
+            "Aspect": [
+                "施設",
+                "フロントの対応"
+            ],
+            "Category": [
+                "Facilities#Cleanliness",
+                "Service#Quality"
+            ],
+            "Opinion": [
+                "とてもきれい",
+                "よかった"
+            ]
+        },
+        "annotator_b": {
+            "ID": "G2Ul6CnqtIbgv5SvoLfaCg",
+            "Sentence": "全体的にとてもきれいな施設でフロントの対応もよかった",
+            "Aspect": [
+                "施設",
+                "フロント"
+            ],
+            "Category": [
+                "Hotel#Cleanliness",
+                "Service#Quality"
+            ],
+            "Opinion": [
+                "とてもきれい",
+                "よかった"
+            ]
+        }
+    },
+    "vEUewvnJltdLkCKOBLmGVA": {
+        "sentence": "お部屋は隅々までとても綺麗に掃除され、広くて大満足でした！",
+        "annotator_a": {
+            "ID": "vEUewvnJltdLkCKOBLmGVA",
+            "Sentence": "お部屋は隅々までとても綺麗に掃除され、広くて大満足でした！",
+            "Aspect": [
+                "お部屋",
+                "お部屋",
+                "お部屋"
+            ],
+            "Category": [
+                "Rooms#Cleanliness",
+                "Rooms#Comfort",
+                "Rooms#General"
+            ],
+            "Opinion": [
+                "とても綺麗",
+                "広くて",
+                "大満足"
+            ]
+        },
+        "annotator_b": {
+            "ID": "vEUewvnJltdLkCKOBLmGVA",
+            "Sentence": "お部屋は隅々までとても綺麗に掃除され、広くて大満足でした！",
+            "Aspect": [
+                "お部屋"
+            ],
+            "Category": [
+                "Rooms#Quality"
+            ],
+            "Opinion": [
+                "大満足"
+            ]
+        }
+    },
+    "LJo8PEoSxHSHkUOf_aFVjg": {
+        "sentence": "駅から徒歩圏内で立地は非常に良いと思います。",
+        "annotator_a": {
+            "ID": "LJo8PEoSxHSHkUOf_aFVjg",
+            "Sentence": "駅から徒歩圏内で立地は非常に良いと思います。",
+            "Aspect": [
+                "立地"
+            ],
+            "Category": [
+                "Location#General"
+            ],
+            "Opinion": [
+                "非常に良い"
+            ]
+        },
+        "annotator_b": {
+            "ID": "LJo8PEoSxHSHkUOf_aFVjg",
+            "Sentence": "駅から徒歩圏内で立地は非常に良いと思います。",
+            "Aspect": [
+                "駅"
+            ],
+            "Category": [
+                "Location#Quality"
+            ],
+            "Opinion": [
+                "非常に良い"
+            ]
+        }
+    },
+    "wcjUh8jWL8HdByL7iYsh2A": {
+        "sentence": "１階の広いお風呂はのんびり過ごすことができて疲れを癒やせました。",
+        "annotator_a": {
+            "ID": "wcjUh8jWL8HdByL7iYsh2A",
+            "Sentence": "１階の広いお風呂はのんびり過ごすことができて疲れを癒やせました。",
+            "Aspect": [
+                "お風呂"
+            ],
+            "Category": [
+                "Facilities#Comfort"
+            ],
+            "Opinion": [
+                "広い"
+            ]
+        },
+        "annotator_b": {
+            "ID": "wcjUh8jWL8HdByL7iYsh2A",
+            "Sentence": "１階の広いお風呂はのんびり過ごすことができて疲れを癒やせました。",
+            "Aspect": [
+                "お風呂"
+            ],
+            "Category": [
+                "Facilities#Comfort"
+            ],
+            "Opinion": [
+                "疲れを癒せ"
+            ]
+        }
+    },
+    "inJLdken1Sb4yJVCVHT-7w": {
+        "sentence": "ジムもついており運動できたので良かったです。",
+        "annotator_a": {
+            "ID": "inJLdken1Sb4yJVCVHT-7w",
+            "Sentence": "ジムもついており運動できたので良かったです。",
+            "Aspect": [
+                "ジム"
+            ],
+            "Category": [
+                "Facilities#Quality"
+            ],
+            "Opinion": [
+                "良かった"
+            ]
+        },
+        "annotator_b": {
+            "ID": "inJLdken1Sb4yJVCVHT-7w",
+            "Sentence": "ジムもついており運動できたので良かったです。",
+            "Aspect": [
+                "ジム"
+            ],
+            "Category": [
+                "Facilities#Comfort"
+            ],
+            "Opinion": [
+                "良かった"
+            ]
+        }
+    },
+    "SvngQph_4gUx1MU1UyfkCQ": {
+        "sentence": "駐車場案内からはじまり、快適に過ごせました。",
+        "annotator_a": {
+            "ID": "SvngQph_4gUx1MU1UyfkCQ",
+            "Sentence": "駐車場案内からはじまり、快適に過ごせました。",
+            "Aspect": [
+                "駐車場案内"
+            ],
+            "Category": [
+                "Service#Comfort"
+            ],
+            "Opinion": [
+                "快適"
+            ]
+        },
+        "annotator_b": {
+            "ID": "SvngQph_4gUx1MU1UyfkCQ",
+            "Sentence": "駐車場案内からはじまり、快適に過ごせました。",
+            "Aspect": [
+                "駐車場案内"
+            ],
+            "Category": [
+                "Service#Comfort"
+            ],
+            "Opinion": [
+                "快適に過ごせ"
+            ]
+        }
+    },
+    "BfrDQEfmDz0KXVo75OQFdw": {
+        "sentence": "お風呂のシャワーも5分以上出し続けても暖かいお湯が出てこず、冬の夜には辛かったです。",
+        "annotator_a": {
+            "ID": "BfrDQEfmDz0KXVo75OQFdw",
+            "Sentence": "お風呂のシャワーも5分以上出し続けても暖かいお湯が出てこず、冬の夜には辛かったです。",
+            "Aspect": [
+                "お風呂のシャワー"
+            ],
+            "Category": [
+                "Facilities#Quality"
+            ],
+            "Opinion": [
+                "辛かった"
+            ]
+        },
+        "annotator_b": {
+            "ID": "BfrDQEfmDz0KXVo75OQFdw",
+            "Sentence": "お風呂のシャワーも5分以上出し続けても暖かいお湯が出てこず、冬の夜には辛かったです。",
+            "Aspect": [
+                "お風呂"
+            ],
+            "Category": [
+                "Facilities#Quality"
+            ],
+            "Opinion": [
+                "辛かった"
+            ]
+        }
+    },
+    "ELpCsrpQ5dQeDO13wVMueA": {
+        "sentence": "アメニティが充実してた。",
+        "annotator_a": {
+            "ID": "ELpCsrpQ5dQeDO13wVMueA",
+            "Sentence": "アメニティが充実してた。",
+            "Aspect": [
+                "アメニティ"
+            ],
+            "Category": [
+                "Room Amenities#Style & Options"
+            ],
+            "Opinion": [
+                "充実"
+            ]
+        },
+        "annotator_b": {
+            "ID": "ELpCsrpQ5dQeDO13wVMueA",
+            "Sentence": "アメニティが充実してた。",
+            "Aspect": [
+                "アメニティ"
+            ],
+            "Category": [
+                "Room Amenities#Quality"
+            ],
+            "Opinion": [
+                "充実"
+            ]
+        }
+    },
+    "lCbpN_V8ItUAT7ieJH-hsw": {
+        "sentence": "値段の割に満足しました。",
+        "annotator_a": {
+            "ID": "lCbpN_V8ItUAT7ieJH-hsw",
+            "Sentence": "値段の割に満足しました。",
+            "Aspect": [
+                "値段"
+            ],
+            "Category": [
+                "Hotel#Price"
+            ],
+            "Opinion": [
+                "満足"
+            ]
+        },
+        "annotator_b": {
+            "ID": "lCbpN_V8ItUAT7ieJH-hsw",
+            "Sentence": "値段の割に満足しました。",
+            "Aspect": [
+                "値段"
+            ],
+            "Category": [
+                "Hotel#Quality"
+            ],
+            "Opinion": [
+                "満足"
+            ]
+        }
+    },
+    "GUFDwJ4WzJlmF7Em3szQzg": {
+        "sentence": "自分だけの感覚かもしれませんが、スタッフなら「ありがとうございました、こちらで」と言って食器を受け取ると思ってましたので少し残念な気持ちです。",
+        "annotator_a": {
+            "ID": "GUFDwJ4WzJlmF7Em3szQzg",
+            "Sentence": "自分だけの感覚かもしれませんが、スタッフなら「ありがとうございました、こちらで」と言って食器を受け取ると思ってましたので少し残念な気持ちです。",
+            "Aspect": [
+                "スタッフ"
+            ],
+            "Category": [
+                "Service#Quality"
+            ],
+            "Opinion": [
+                "少し残念"
+            ]
+        },
+        "annotator_b": {
+            "ID": "GUFDwJ4WzJlmF7Em3szQzg",
+            "Sentence": "自分だけの感覚かもしれませんが、スタッフなら「ありがとうございました、こちらで」と言って食器を受け取ると思ってましたので少し残念な気持ちです。",
+            "Aspect": [
+                "スタッフ"
+            ],
+            "Category": [
+                "Service#Quality"
+            ],
+            "Opinion": [
+                "残念な気持ち"
+            ]
+        }
+    },
+    "Ah0KEqNpQ8Sf_oDW728Xmw": {
+        "sentence": "立地が良い。",
+        "annotator_a": {
+            "ID": "Ah0KEqNpQ8Sf_oDW728Xmw",
+            "Sentence": "立地が良い。",
+            "Aspect": [
+                "立地"
+            ],
+            "Category": [
+                "Location#General"
+            ],
+            "Opinion": [
+                "良い"
+            ]
+        },
+        "annotator_b": {
+            "ID": "Ah0KEqNpQ8Sf_oDW728Xmw",
+            "Sentence": "立地が良い。",
+            "Aspect": [
+                "立地"
+            ],
+            "Category": [
+                "Location#Quality"
+            ],
+            "Opinion": [
+                "良い"
+            ]
+        }
+    },
+    "D4OBaud49tHM0rdH3Ko3_w": {
+        "sentence": "お風呂は雰囲気も良くとても心地よく入れました。",
+        "annotator_a": {
+            "ID": "D4OBaud49tHM0rdH3Ko3_w",
+            "Sentence": "お風呂は雰囲気も良くとても心地よく入れました。",
+            "Aspect": [
+                "お風呂",
+                "お風呂"
+            ],
+            "Category": [
+                "Facilities#Design & Features",
+                "Facilities#Comfort"
+            ],
+            "Opinion": [
+                "雰囲気も良く",
+                "とても心地よく"
+            ]
+        },
+        "annotator_b": {
+            "ID": "D4OBaud49tHM0rdH3Ko3_w",
+            "Sentence": "お風呂は雰囲気も良くとても心地よく入れました。",
+            "Aspect": [
+                "お風呂"
+            ],
+            "Category": [
+                "Facilities#Comfort"
+            ],
+            "Opinion": [
+                "とても心地よく"
+            ]
+        }
+    },
+    "yuOpMWtfoyLUvhaaloYCjg": {
+        "sentence": "部屋も広々とあずましく、室温もちょうど良く満足です。",
+        "annotator_a": {
+            "ID": "yuOpMWtfoyLUvhaaloYCjg",
+            "Sentence": "部屋も広々とあずましく、室温もちょうど良く満足です。",
+            "Aspect": [
+                "部屋",
+                "部屋",
+                "室温",
+                "NULL"
+            ],
+            "Category": [
+                "Rooms#Comfort",
+                "Rooms#Comfort",
+                "Rooms#Comfort",
+                "Hotel#General"
+            ],
+            "Opinion": [
+                "広々",
+                "あずましく",
+                "ちょうど良く",
+                "満足"
+            ]
+        },
+        "annotator_b": {
+            "ID": "yuOpMWtfoyLUvhaaloYCjg",
+            "Sentence": "部屋も広々とあずましく、室温もちょうど良く満足です。",
+            "Aspect": [
+                "部屋",
+                "室温",
+                "NULL"
+            ],
+            "Category": [
+                "Rooms#Comfort",
+                "Rooms#Comfort",
+                "Hotel#Quality"
+            ],
+            "Opinion": [
+                "あずましく",
+                "ちょうど良く",
+                "満足"
+            ]
+        }
+    },
+    "MHnaserheXJRgR_xJgbbdw": {
+        "sentence": "立地が最高です。",
+        "annotator_a": {
+            "ID": "MHnaserheXJRgR_xJgbbdw",
+            "Sentence": "立地が最高です。",
+            "Aspect": [
+                "立地"
+            ],
+            "Category": [
+                "Location#Quality"
+            ],
+            "Opinion": [
+                "最高"
+            ]
+        },
+        "annotator_b": {
+            "ID": "MHnaserheXJRgR_xJgbbdw",
+            "Sentence": "立地が最高です。",
+            "Aspect": [
+                "立地"
+            ],
+            "Category": [
+                "Location#Quality"
+            ],
+            "Opinion": [
+                "最高"
+            ]
+        }
+    },
+    "VqC1oGOJl-1KQaxXRQ1frw": {
+        "sentence": "接客が良く館内施設も清潔感があり大変満足しました。",
+        "annotator_a": {
+            "ID": "VqC1oGOJl-1KQaxXRQ1frw",
+            "Sentence": "接客が良く館内施設も清潔感があり大変満足しました。",
+            "Aspect": [
+                "接客",
+                "館内施設",
+                "NULL"
+            ],
+            "Category": [
+                "Service#Quality",
+                "Facilities#Cleanliness",
+                "Hotel#General"
+            ],
+            "Opinion": [
+                "良く",
+                "清潔感",
+                "大変満足"
+            ]
+        },
+        "annotator_b": {
+            "ID": "VqC1oGOJl-1KQaxXRQ1frw",
+            "Sentence": "接客が良く館内施設も清潔感があり大変満足しました。",
+            "Aspect": [
+                "接客",
+                "館内施設",
+                "NULL"
+            ],
+            "Category": [
+                "Service#Quality",
+                "Facilities#Cleanliness",
+                "Hotel#Quality"
+            ],
+            "Opinion": [
+                "良く",
+                "清潔感",
+                "大変満足"
+            ]
+        }
+    },
+    "4RKQ2OM1Q53EzqKK7LgHCg": {
+        "sentence": "建物は古いが部屋は清潔で、気持ち良く過ごせました。",
+        "annotator_a": {
+            "ID": "4RKQ2OM1Q53EzqKK7LgHCg",
+            "Sentence": "建物は古いが部屋は清潔で、気持ち良く過ごせました。",
+            "Aspect": [
+                "建物",
+                "部屋",
+                "NULL"
+            ],
+            "Category": [
+                "Hotel#Design & Features",
+                "Rooms#Cleanliness",
+                "Hotel#Comfort"
+            ],
+            "Opinion": [
+                "古い",
+                "清潔",
+                "気持ちよく"
+            ]
+        },
+        "annotator_b": {
+            "ID": "4RKQ2OM1Q53EzqKK7LgHCg",
+            "Sentence": "建物は古いが部屋は清潔で、気持ち良く過ごせました。",
+            "Aspect": [
+                "建物",
+                "部屋",
+                "NULL"
+            ],
+            "Category": [
+                "Hotel#General",
+                "Rooms#Cleanliness",
+                "Hotel#Comfort"
+            ],
+            "Opinion": [
+                "古い",
+                "清潔",
+                "気持ち良く"
+            ]
+        }
+    },
+    "MALAB2AJUNRkWjefykwdTQ": {
+        "sentence": "とにかく朝食がよかった。",
+        "annotator_a": {
+            "ID": "MALAB2AJUNRkWjefykwdTQ",
+            "Sentence": "とにかく朝食がよかった。",
+            "Aspect": [
+                "朝食"
+            ],
+            "Category": [
+                "Food & Drinks#Quality"
+            ],
+            "Opinion": [
+                "よかった"
+            ]
+        },
+        "annotator_b": {
+            "ID": "MALAB2AJUNRkWjefykwdTQ",
+            "Sentence": "とにかく朝食がよかった。",
+            "Aspect": [
+                "朝食"
+            ],
+            "Category": [
+                "Food & Drinks#Quality"
+            ],
+            "Opinion": [
+                "よかった"
+            ]
+        }
+    },
+    "DPAPZ3bTsVOTgSJUw2_tfA": {
+        "sentence": "お部屋が綺麗でお掃除も丁寧で、最上階のお部屋をご用意いただき、とても快適に過ごすことができました。",
+        "annotator_a": {
+            "ID": "DPAPZ3bTsVOTgSJUw2_tfA",
+            "Sentence": "お部屋が綺麗でお掃除も丁寧で、最上階のお部屋をご用意いただき、とても快適に過ごすことができました。",
+            "Aspect": [
+                "お部屋",
+                "お掃除",
+                "NULL"
+            ],
+            "Category": [
+                "Rooms#Cleanliness",
+                "Service#Quality",
+                "Hotel#Comfort"
+            ],
+            "Opinion": [
+                "綺麗",
+                "丁寧",
+                "とても快適"
+            ]
+        },
+        "annotator_b": {
+            "ID": "DPAPZ3bTsVOTgSJUw2_tfA",
+            "Sentence": "お部屋が綺麗でお掃除も丁寧で、最上階のお部屋をご用意いただき、とても快適に過ごすことができました。",
+            "Aspect": [
+                "お部屋"
+            ],
+            "Category": [
+                "Rooms#Cleanliness"
+            ],
+            "Opinion": [
+                "綺麗"
+            ]
+        }
+    },
+    "Jbxi0emURDdZkys79l1XTw": {
+        "sentence": "施設内はとても綺麗でサービスも大変良かったです。",
+        "annotator_a": {
+            "ID": "Jbxi0emURDdZkys79l1XTw",
+            "Sentence": "施設内はとても綺麗でサービスも大変良かったです。",
+            "Aspect": [
+                "施設内",
+                "サービス"
+            ],
+            "Category": [
+                "Hotel#Cleanliness",
+                "Service#Quality"
+            ],
+            "Opinion": [
+                "とても綺麗",
+                "大変良かった"
+            ]
+        },
+        "annotator_b": {
+            "ID": "Jbxi0emURDdZkys79l1XTw",
+            "Sentence": "施設内はとても綺麗でサービスも大変良かったです。",
+            "Aspect": [
+                "施設内",
+                "サービス"
+            ],
+            "Category": [
+                "Hotel#Cleanliness",
+                "Service#Quality"
+            ],
+            "Opinion": [
+                "とても綺麗で",
+                "大変良かった"
+            ]
+        }
+    },
+    "BPra4QQeWd8OhVXlTrUa1g": {
+        "sentence": "食事も種類がたくさんあり、特にうにぎりを目当てに宿泊します。",
+        "annotator_a": {
+            "ID": "BPra4QQeWd8OhVXlTrUa1g",
+            "Sentence": "食事も種類がたくさんあり、特にうにぎりを目当てに宿泊します。",
+            "Aspect": [
+                "種類"
+            ],
+            "Category": [
+                "Food & Drinks#Style & Options"
+            ],
+            "Opinion": [
+                "たくさん"
+            ]
+        },
+        "annotator_b": {
+            "ID": "BPra4QQeWd8OhVXlTrUa1g",
+            "Sentence": "食事も種類がたくさんあり、特にうにぎりを目当てに宿泊します。",
+            "Aspect": [
+                "食事"
+            ],
+            "Category": [
+                "Food & Drinks#Quality"
+            ],
+            "Opinion": [
+                "たくさん"
+            ]
+        }
+    },
+    "nm_pUFfCscpUoH0KTXUgPg": {
+        "sentence": "朝食バイキングが美味しいホテルに出会い、とても嬉しく思いました！",
+        "annotator_a": {
+            "ID": "nm_pUFfCscpUoH0KTXUgPg",
+            "Sentence": "朝食バイキングが美味しいホテルに出会い、とても嬉しく思いました！",
+            "Aspect": [
+                "朝食バイキング",
+                "NULL"
+            ],
+            "Category": [
+                "Food & Drinks#Quality",
+                "Hotel#General"
+            ],
+            "Opinion": [
+                "美味しい",
+                "とても嬉しく"
+            ]
+        },
+        "annotator_b": {
+            "ID": "nm_pUFfCscpUoH0KTXUgPg",
+            "Sentence": "朝食バイキングが美味しいホテルに出会い、とても嬉しく思いました！",
+            "Aspect": [
+                "朝食バイキング",
+                "NULL"
+            ],
+            "Category": [
+                "Food & Drinks#Quality"
+            ],
+            "Opinion": [
+                "美味しい",
+                "とても嬉しく思い"
+            ]
+        }
+    },
+    "swThcC4OhyYl0mJeYbWFJA": {
+        "sentence": "朝食はバイキングで売り切れになった皿の追加が少し遅かったのと、納豆がなかったのが残念です。",
+        "annotator_a": {
+            "ID": "swThcC4OhyYl0mJeYbWFJA",
+            "Sentence": "朝食はバイキングで売り切れになった皿の追加が少し遅かったのと、納豆がなかったのが残念です。",
+            "Aspect": [
+                "朝食",
+                "朝食"
+            ],
+            "Category": [
+                "Service#Quality",
+                "Food & Drinks#Quality"
+            ],
+            "Opinion": [
+                "少し遅かった",
+                "残念"
+            ]
+        },
+        "annotator_b": {
+            "ID": "swThcC4OhyYl0mJeYbWFJA",
+            "Sentence": "朝食はバイキングで売り切れになった皿の追加が少し遅かったのと、納豆がなかったのが残念です。",
+            "Aspect": [
+                "朝食"
+            ],
+            "Category": [
+                "Food & Drinks#Quality"
+            ],
+            "Opinion": [
+                "残念"
+            ]
+        }
+    },
+    "wm785mpdujVLXFYR3BsUqQ": {
+        "sentence": "スタッフのサービスはさすがです。",
+        "annotator_a": {
+            "ID": "wm785mpdujVLXFYR3BsUqQ",
+            "Sentence": "スタッフのサービスはさすがです。",
+            "Aspect": [
+                "スタッフのサービス"
+            ],
+            "Category": [
+                "Service#Quality"
+            ],
+            "Opinion": [
+                "さすが"
+            ]
+        },
+        "annotator_b": {
+            "ID": "wm785mpdujVLXFYR3BsUqQ",
+            "Sentence": "スタッフのサービスはさすがです。",
+            "Aspect": [
+                "サービス"
+            ],
+            "Category": [
+                "Service#Quality"
+            ],
+            "Opinion": [
+                "さすが"
+            ]
+        }
+    },
+    "q0xJHv2s2ciMQX1U-zwV8w": {
+        "sentence": "大浴場が清潔で気持ちが良かった。",
+        "annotator_a": {
+            "ID": "q0xJHv2s2ciMQX1U-zwV8w",
+            "Sentence": "大浴場が清潔で気持ちが良かった。",
+            "Aspect": [
+                "大浴場",
+                "大浴場"
+            ],
+            "Category": [
+                "Facilities#Cleanliness",
+                "Facilities#Comfort"
+            ],
+            "Opinion": [
+                "清潔",
+                "気持ちが良かった"
+            ]
+        },
+        "annotator_b": {
+            "ID": "q0xJHv2s2ciMQX1U-zwV8w",
+            "Sentence": "大浴場が清潔で気持ちが良かった。",
+            "Aspect": [
+                "大浴場"
+            ],
+            "Category": [
+                "Facilities#Comfort"
+            ],
+            "Opinion": [
+                "気持ちが良かった"
+            ]
+        }
+    },
+    "_WB_Jot6Mw_I9cGVCMfUIg": {
+        "sentence": "急な変更等にも対応してくださりありがとうございました。",
+        "annotator_a": {
+            "ID": "_WB_Jot6Mw_I9cGVCMfUIg",
+            "Sentence": "急な変更等にも対応してくださりありがとうございました。",
+            "Aspect": [
+                "対応"
+            ],
+            "Category": [
+                "Service#Quality"
+            ],
+            "Opinion": [
+                "ありがとう"
+            ]
+        },
+        "annotator_b": {
+            "ID": "_WB_Jot6Mw_I9cGVCMfUIg",
+            "Sentence": "急な変更等にも対応してくださりありがとうございました。",
+            "Aspect": [
+                "対応"
+            ],
+            "Category": [
+                "Service#Quality"
+            ],
+            "Opinion": [
+                "ありがとう"
+            ]
+        }
+    },
+    "8MV4G4D9n3NsgDpNGFuTqA": {
+        "sentence": "部屋も広く何よりも洗面所とお風呂が別別になっているのが魅力です。",
+        "annotator_a": {
+            "ID": "8MV4G4D9n3NsgDpNGFuTqA",
+            "Sentence": "部屋も広く何よりも洗面所とお風呂が別別になっているのが魅力です。",
+            "Aspect": [
+                "部屋",
+                "洗面所とお風呂"
+            ],
+            "Category": [
+                "Rooms#Comfort",
+                "Rooms#Design & Features"
+            ],
+            "Opinion": [
+                "広く",
+                "魅力"
+            ]
+        },
+        "annotator_b": {
+            "ID": "8MV4G4D9n3NsgDpNGFuTqA",
+            "Sentence": "部屋も広く何よりも洗面所とお風呂が別別になっているのが魅力です。",
+            "Aspect": [
+                "部屋",
+                "洗面所とお風呂"
+            ],
+            "Category": [
+                "Rooms#Quality",
+                "Facilities#Quality"
+            ],
+            "Opinion": [
+                "広く",
+                "魅力"
+            ]
+        }
+    },
+    "NlgpOdq2esR5tkd0xYUnaw": {
+        "sentence": "まだオープンして数ヶ月だったので、何もかもが綺麗でした。",
+        "annotator_a": {
+            "ID": "NlgpOdq2esR5tkd0xYUnaw",
+            "Sentence": "まだオープンして数ヶ月だったので、何もかもが綺麗でした。",
+            "Aspect": [
+                "NULL"
+            ],
+            "Category": [
+                "Hotel#Cleanliness"
+            ],
+            "Opinion": [
+                "綺麗"
+            ]
+        },
+        "annotator_b": {
+            "ID": "NlgpOdq2esR5tkd0xYUnaw",
+            "Sentence": "まだオープンして数ヶ月だったので、何もかもが綺麗でした。",
+            "Aspect": [
+                "NULL"
+            ],
+            "Category": [
+                "Hotel#Cleanliness"
+            ],
+            "Opinion": [
+                "綺麗"
+            ]
+        }
+    },
+    "9lZp199AjsmWCiRQIwoB7A": {
+        "sentence": "朝食が悪い。",
+        "annotator_a": {
+            "ID": "9lZp199AjsmWCiRQIwoB7A",
+            "Sentence": "朝食が悪い。",
+            "Aspect": [
+                "朝食"
+            ],
+            "Category": [
+                "Food & Drinks#Quality"
+            ],
+            "Opinion": [
+                "悪い"
+            ]
+        },
+        "annotator_b": {
+            "ID": "9lZp199AjsmWCiRQIwoB7A",
+            "Sentence": "朝食が悪い。",
+            "Aspect": [
+                "朝食"
+            ],
+            "Category": [
+                "Food & Drinks#Quality"
+            ],
+            "Opinion": [
+                "悪い"
+            ]
+        }
+    },
+    "kvI2Vib0Bk28ApbXd-qjkg": {
+        "sentence": "テレビがユーチューブが見れるのはうれしい。",
+        "annotator_a": {
+            "ID": "kvI2Vib0Bk28ApbXd-qjkg",
+            "Sentence": "テレビがユーチューブが見れるのはうれしい。",
+            "Aspect": [
+                "テレビ"
+            ],
+            "Category": [
+                "Facilities#Quality"
+            ],
+            "Opinion": [
+                "うれしい"
+            ]
+        },
+        "annotator_b": {
+            "ID": "kvI2Vib0Bk28ApbXd-qjkg",
+            "Sentence": "テレビがユーチューブが見れるのはうれしい。",
+            "Aspect": [
+                "テレビ"
+            ],
+            "Category": [
+                "Rooms#Quality"
+            ],
+            "Opinion": [
+                "うれしい"
+            ]
+        }
+    },
+    "w2OddKd1MIra9UaQz-Y5gw": {
+        "sentence": "スタッフの皆さんの対応がよく、学生さんもその他の利用客も気持ちよく過ごせていたと思います。",
+        "annotator_a": {
+            "ID": "w2OddKd1MIra9UaQz-Y5gw",
+            "Sentence": "スタッフの皆さんの対応がよく、学生さんもその他の利用客も気持ちよく過ごせていたと思います。",
+            "Aspect": [
+                "スタッフの皆さんの対応",
+                "NULL"
+            ],
+            "Category": [
+                "Service#Quality",
+                "Hotel#Comfort"
+            ],
+            "Opinion": [
+                "よく",
+                "気持ちよく"
+            ]
+        },
+        "annotator_b": {
+            "ID": "w2OddKd1MIra9UaQz-Y5gw",
+            "Sentence": "スタッフの皆さんの対応がよく、学生さんもその他の利用客も気持ちよく過ごせていたと思います。",
+            "Aspect": [
+                "スタッフ",
+                "NULL"
+            ],
+            "Category": [
+                "Service#Quality",
+                "Hotel#Comfort"
+            ],
+            "Opinion": [
+                "よく",
+                "気持ちよく"
+            ]
+        }
+    },
+    "vRpxBspR-a3DA_vN5WDClw": {
+        "sentence": "朝食も帆立フライとかせんべい汁とか郷土料理が沢山あり、とても美味しく満足です。",
+        "annotator_a": {
+            "ID": "vRpxBspR-a3DA_vN5WDClw",
+            "Sentence": "朝食も帆立フライとかせんべい汁とか郷土料理が沢山あり、とても美味しく満足です。",
+            "Aspect": [
+                "朝食",
+                "朝食",
+                "朝食"
+            ],
+            "Category": [
+                "Food & Drinks#Style & Options",
+                "Food & Drinks#Quality",
+                "Food & Drinks#Quality"
+            ],
+            "Opinion": [
+                "沢山",
+                "とても美味しく",
+                "満足"
+            ]
+        },
+        "annotator_b": {
+            "ID": "vRpxBspR-a3DA_vN5WDClw",
+            "Sentence": "朝食も帆立フライとかせんべい汁とか郷土料理が沢山あり、とても美味しく満足です。",
+            "Aspect": [
+                "朝食",
+                "朝食",
+                "朝食"
+            ],
+            "Category": [
+                "Food & Drinks#Quality",
+                "Food & Drinks#Quality",
+                "Food & Drinks#Quality"
+            ],
+            "Opinion": [
+                "沢山あり",
+                "とても美味しく",
+                "満足"
+            ]
+        }
+    },
+    "xd-RVTdhyBC9QH8kSIc8GQ": {
+        "sentence": "朝食もチェックイン時に頼めて運河沿いの素敵な席で食事できました。",
+        "annotator_a": {
+            "ID": "xd-RVTdhyBC9QH8kSIc8GQ",
+            "Sentence": "朝食もチェックイン時に頼めて運河沿いの素敵な席で食事できました。",
+            "Aspect": [
+                "席"
+            ],
+            "Category": [
+                "Location#Quality"
+            ],
+            "Opinion": [
+                "素敵"
+            ]
+        },
+        "annotator_b": {
+            "ID": "xd-RVTdhyBC9QH8kSIc8GQ",
+            "Sentence": "朝食もチェックイン時に頼めて運河沿いの素敵な席で食事できました。",
+            "Aspect": [
+                "朝食"
+            ],
+            "Category": [
+                "Food & Drinks#Quality"
+            ],
+            "Opinion": [
+                "でき"
+            ]
+        }
+    },
+    "jdK4vI96DqJQIfrdP82hlw": {
+        "sentence": "朝食のバイキングですが、もう少しメニューの種類があっても良かったかな？",
+        "annotator_a": {
+            "ID": "jdK4vI96DqJQIfrdP82hlw",
+            "Sentence": "朝食のバイキングですが、もう少しメニューの種類があっても良かったかな？",
+            "Aspect": [
+                "朝食のバイキング"
+            ],
+            "Category": [
+                "Food & Drinks#Style & Options"
+            ],
+            "Opinion": [
+                "良かった"
+            ]
+        },
+        "annotator_b": {
+            "ID": "jdK4vI96DqJQIfrdP82hlw",
+            "Sentence": "朝食のバイキングですが、もう少しメニューの種類があっても良かったかな？",
+            "Aspect": [
+                "バイキング"
+            ],
+            "Category": [
+                "Food & Drinks#Quality"
+            ],
+            "Opinion": [
+                "良かったかな"
+            ]
+        }
+    },
+    "B_4Bqnw7rORKymDplkrgNw": {
+        "sentence": "外国の方（アジア圏）の宿泊者が夜中まで騒いでいて、うるさくで眠れず、フロントに電話しましたが、繋がりませんでした。",
+        "annotator_a": {
+            "ID": "B_4Bqnw7rORKymDplkrgNw",
+            "Sentence": "外国の方（アジア圏）の宿泊者が夜中まで騒いでいて、うるさくで眠れず、フロントに電話しましたが、繋がりませんでした。",
+            "Aspect": [
+                "NULL"
+            ],
+            "Category": [
+                "Hotel#Comfort"
+            ],
+            "Opinion": [
+                "うるさく"
+            ]
+        },
+        "annotator_b": {
+            "ID": "B_4Bqnw7rORKymDplkrgNw",
+            "Sentence": "外国の方（アジア圏）の宿泊者が夜中まで騒いでいて、うるさくで眠れず、フロントに電話しましたが、繋がりませんでした。",
+            "Aspect": [
+                "フロント"
+            ],
+            "Category": [
+                "Service#Quality"
+            ],
+            "Opinion": [
+                "繋がり"
+            ]
+        }
+    },
+    "6HkWLgZroXBPEDTbGaIkTw": {
+        "sentence": "部屋は広いし、バスも広めで、バス・トイレ・洗面が別れているのはとても良いと思います。",
+        "annotator_a": {
+            "ID": "6HkWLgZroXBPEDTbGaIkTw",
+            "Sentence": "部屋は広いし、バスも広めで、バス・トイレ・洗面が別れているのはとても良いと思います。",
+            "Aspect": [
+                "部屋",
+                "バス",
+                "バス・トイレ・洗面"
+            ],
+            "Category": [
+                "Rooms#Comfort",
+                "Facilities#Comfort",
+                "Facilities#General"
+            ],
+            "Opinion": [
+                "広い",
+                "広め",
+                "とても良い"
+            ]
+        },
+        "annotator_b": {
+            "ID": "6HkWLgZroXBPEDTbGaIkTw",
+            "Sentence": "部屋は広いし、バスも広めで、バス・トイレ・洗面が別れているのはとても良いと思います。",
+            "Aspect": [
+                "部屋",
+                "バス",
+                "バス・トイレ・洗面"
+            ],
+            "Category": [
+                "Rooms#Quality",
+                "Facilities#Quality",
+                "Facilities#Quality"
+            ],
+            "Opinion": [
+                "広いし",
+                "広めで",
+                "とても良い"
+            ]
+        }
+    },
+    "7WqjCUmEuyTVk-eSY_q22A": {
+        "sentence": "朝食バイキング値段の割には品数が少ないよーな",
+        "annotator_a": {
+            "ID": "7WqjCUmEuyTVk-eSY_q22A",
+            "Sentence": "朝食バイキング値段の割には品数が少ないよーな",
+            "Aspect": [
+                "朝食バイキング"
+            ],
+            "Category": [
+                "Food & Drinks#Style & Options"
+            ],
+            "Opinion": [
+                "少ない"
+            ]
+        },
+        "annotator_b": {
+            "ID": "7WqjCUmEuyTVk-eSY_q22A",
+            "Sentence": "朝食バイキング値段の割には品数が少ないよーな",
+            "Aspect": [
+                "朝食バイキング"
+            ],
+            "Category": [
+                "Food & Drinks#Quality"
+            ],
+            "Opinion": [
+                "少ない"
+            ]
+        }
+    },
+    "aFkdltypb0Fa8weK_BEFpA": {
+        "sentence": "ひとりお膳を用意していただいたのですが、お膳が低くて食べずらかった",
+        "annotator_a": {
+            "ID": "aFkdltypb0Fa8weK_BEFpA",
+            "Sentence": "ひとりお膳を用意していただいたのですが、お膳が低くて食べずらかった",
+            "Aspect": [
+                "お膳",
+                "お膳"
+            ],
+            "Category": [
+                "Food & Drinks#Quality",
+                "Food & Drinks#Quality"
+            ],
+            "Opinion": [
+                "低くて",
+                "食べずらかった"
+            ]
+        },
+        "annotator_b": {
+            "ID": "aFkdltypb0Fa8weK_BEFpA",
+            "Sentence": "ひとりお膳を用意していただいたのですが、お膳が低くて食べずらかった",
+            "Aspect": [
+                "ひとりお膳"
+            ],
+            "Category": [
+                "Service#Quality"
+            ],
+            "Opinion": [
+                "食べずらかった"
+            ]
+        }
+    },
+    "uv5lmoDhgr0rT8wAkOw6tw": {
+        "sentence": "地下道への出入り口も近く、慣れない雪道を歩かなくても駅へアクセス出来て良かったです。",
+        "annotator_a": {
+            "ID": "uv5lmoDhgr0rT8wAkOw6tw",
+            "Sentence": "地下道への出入り口も近く、慣れない雪道を歩かなくても駅へアクセス出来て良かったです。",
+            "Aspect": [
+                "地下道への出入り口",
+                "NULL"
+            ],
+            "Category": [
+                "Location#General",
+                "Location#General"
+            ],
+            "Opinion": [
+                "近く",
+                "良かった"
+            ]
+        },
+        "annotator_b": {
+            "ID": "uv5lmoDhgr0rT8wAkOw6tw",
+            "Sentence": "地下道への出入り口も近く、慣れない雪道を歩かなくても駅へアクセス出来て良かったです。",
+            "Aspect": [
+                "出入り口"
+            ],
+            "Category": [
+                "Location#Comfort"
+            ],
+            "Opinion": [
+                "良かった"
+            ]
+        }
+    },
+    "eiHZMdmzQVyrgvgYrkBLVg": {
+        "sentence": "2度目の利用もリフレッシュできました。",
+        "annotator_a": {
+            "ID": "eiHZMdmzQVyrgvgYrkBLVg",
+            "Sentence": "2度目の利用もリフレッシュできました。",
+            "Aspect": [
+                "NULL"
+            ],
+            "Category": [
+                "Hotel#General"
+            ],
+            "Opinion": [
+                "リフレッシュ"
+            ]
+        },
+        "annotator_b": {
+            "ID": "eiHZMdmzQVyrgvgYrkBLVg",
+            "Sentence": "2度目の利用もリフレッシュできました。",
+            "Aspect": [
+                "NULL"
+            ],
+            "Category": [
+                "Hotel#Comfort"
+            ],
+            "Opinion": [
+                "リフレッシュ"
+            ]
+        }
+    },
+    "lyACl7hrRwLcakMpfnfDww": {
+        "sentence": "温泉が最高でした。",
+        "annotator_a": {
+            "ID": "lyACl7hrRwLcakMpfnfDww",
+            "Sentence": "温泉が最高でした。",
+            "Aspect": [
+                "温泉"
+            ],
+            "Category": [
+                "Facilities#Quality"
+            ],
+            "Opinion": [
+                "最高"
+            ]
+        },
+        "annotator_b": {
+            "ID": "lyACl7hrRwLcakMpfnfDww",
+            "Sentence": "温泉が最高でした。",
+            "Aspect": [
+                "温泉"
+            ],
+            "Category": [
+                "Facilities#Quality"
+            ],
+            "Opinion": [
+                "最高"
+            ]
+        }
+    },
+    "3CbIYDoskYorLTKp0C38YQ": {
+        "sentence": "各観光地へも行きやすい立地で大浴場もあり、フロントの対応も手際が良く丁寧です。",
+        "annotator_a": {
+            "ID": "3CbIYDoskYorLTKp0C38YQ",
+            "Sentence": "各観光地へも行きやすい立地で大浴場もあり、フロントの対応も手際が良く丁寧です。",
+            "Aspect": [
+                "立地",
+                "フロントの対応",
+                "フロントの対応"
+            ],
+            "Category": [
+                "Location#General",
+                "Service#Quality",
+                "Service#Quality"
+            ],
+            "Opinion": [
+                "行きやすい",
+                "手際が良く",
+                "丁寧"
+            ]
+        },
+        "annotator_b": {
+            "ID": "3CbIYDoskYorLTKp0C38YQ",
+            "Sentence": "各観光地へも行きやすい立地で大浴場もあり、フロントの対応も手際が良く丁寧です。",
+            "Aspect": [
+                "各観光地",
+                "大浴場",
+                "フロントの対応"
+            ],
+            "Category": [
+                "Location#Comfort",
+                "Facilities#General",
+                "Service#Quality"
+            ],
+            "Opinion": [
+                "行きやすい",
+                "あり",
+                "丁寧"
+            ]
+        }
+    },
+    "uXXlQeqCeXkhdAdaKG1LXg": {
+        "sentence": "アメニティが揃っていて良かった。",
+        "annotator_a": {
+            "ID": "uXXlQeqCeXkhdAdaKG1LXg",
+            "Sentence": "アメニティが揃っていて良かった。",
+            "Aspect": [
+                "アメニティ"
+            ],
+            "Category": [
+                "Room Amenities#Style & Options"
+            ],
+            "Opinion": [
+                "良かった"
+            ]
+        },
+        "annotator_b": {
+            "ID": "uXXlQeqCeXkhdAdaKG1LXg",
+            "Sentence": "アメニティが揃っていて良かった。",
+            "Aspect": [
+                "アメニティ"
+            ],
+            "Category": [
+                "Room Amenities#Quality"
+            ],
+            "Opinion": [
+                "良かった"
+            ]
+        }
+    },
+    "I-3AJ1ju5_Lkj7F6HLoASA": {
+        "sentence": "駅前の立地なので迷わずいけます。",
+        "annotator_a": {
+            "ID": "I-3AJ1ju5_Lkj7F6HLoASA",
+            "Sentence": "駅前の立地なので迷わずいけます。",
+            "Aspect": [
+                "立地"
+            ],
+            "Category": [
+                "Location#General"
+            ],
+            "Opinion": [
+                "駅前"
+            ]
+        },
+        "annotator_b": {
+            "ID": "I-3AJ1ju5_Lkj7F6HLoASA",
+            "Sentence": "駅前の立地なので迷わずいけます。",
+            "Aspect": [
+                "駅前"
+            ],
+            "Category": [
+                "Location#Quality"
+            ],
+            "Opinion": [
+                "迷わずいけ"
+            ]
+        }
+    },
+    "wgLLzp-fz_p8qia-YQpfLQ": {
+        "sentence": "立地は抜群。",
+        "annotator_a": {
+            "ID": "wgLLzp-fz_p8qia-YQpfLQ",
+            "Sentence": "立地は抜群。",
+            "Aspect": [
+                "立地"
+            ],
+            "Category": [
+                "Location#Quality"
+            ],
+            "Opinion": [
+                "抜群"
+            ]
+        },
+        "annotator_b": {
+            "ID": "wgLLzp-fz_p8qia-YQpfLQ",
+            "Sentence": "立地は抜群。",
+            "Aspect": [
+                "立地"
+            ],
+            "Category": [
+                "Location#Quality"
+            ],
+            "Opinion": [
+                "抜群"
+            ]
+        }
+    },
+    "YpQrnv-1qofNvvKAuiLK2g": {
+        "sentence": "客室も様々な設備も新しく、風呂は洗い場と浴槽が分かれていてゆっくり浸かることができました。",
+        "annotator_a": {
+            "ID": "YpQrnv-1qofNvvKAuiLK2g",
+            "Sentence": "客室も様々な設備も新しく、風呂は洗い場と浴槽が分かれていてゆっくり浸かることができました。",
+            "Aspect": [
+                "客室",
+                "様々な設備"
+            ],
+            "Category": [
+                "Rooms#Quality",
+                "Service#Quality"
+            ],
+            "Opinion": [
+                "新しく",
+                "3"
+            ]
+        },
+        "annotator_b": {
+            "ID": "YpQrnv-1qofNvvKAuiLK2g",
+            "Sentence": "客室も様々な設備も新しく、風呂は洗い場と浴槽が分かれていてゆっくり浸かることができました。",
+            "Aspect": [
+                "客室",
+                "様々な設備",
+                "風呂"
+            ],
+            "Category": [
+                "Rooms#Quality",
+                "Facilities#Quality",
+                "Facilities#Comfort"
+            ],
+            "Opinion": [
+                "新しく",
+                "新しく",
+                "ゆっくり浸かることができ"
+            ]
+        }
+    },
+    "rHW_geTk1GkUn9dKWOa_Bw": {
+        "sentence": "お風呂場は照明が暗くて、足元が危なかったです。",
+        "annotator_a": {
+            "ID": "rHW_geTk1GkUn9dKWOa_Bw",
+            "Sentence": "お風呂場は照明が暗くて、足元が危なかったです。",
+            "Aspect": [
+                "お風呂場",
+                "お風呂場"
+            ],
+            "Category": [
+                "Facilities#Design & Features",
+                "Facilities#Quality"
+            ],
+            "Opinion": [
+                "暗くて",
+                "危なかった"
+            ]
+        },
+        "annotator_b": {
+            "ID": "rHW_geTk1GkUn9dKWOa_Bw",
+            "Sentence": "お風呂場は照明が暗くて、足元が危なかったです。",
+            "Aspect": [
+                "お風呂場"
+            ],
+            "Category": [
+                "Location#Quality"
+            ],
+            "Opinion": [
+                "危なかった"
+            ]
+        }
+    },
+    "pRd594bpNCWp1aZW-f9wBQ": {
+        "sentence": "本当に美味しい食事をすることが出来ました。",
+        "annotator_a": {
+            "ID": "pRd594bpNCWp1aZW-f9wBQ",
+            "Sentence": "本当に美味しい食事をすることが出来ました。",
+            "Aspect": [
+                "食事"
+            ],
+            "Category": [
+                "Food & Drinks#Quality"
+            ],
+            "Opinion": [
+                "本当に美味しい"
+            ]
+        },
+        "annotator_b": {
+            "ID": "pRd594bpNCWp1aZW-f9wBQ",
+            "Sentence": "本当に美味しい食事をすることが出来ました。",
+            "Aspect": [
+                "食事"
+            ],
+            "Category": [
+                "Food & Drinks#Quality"
+            ],
+            "Opinion": [
+                "本当に美味しい"
+            ]
+        }
+    },
+    "25giPiU5mbQsZduAuaAW2g": {
+        "sentence": "食事がおいしかったとの報告を受けました",
+        "annotator_a": {
+            "ID": "25giPiU5mbQsZduAuaAW2g",
+            "Sentence": "食事がおいしかったとの報告を受けました",
+            "Aspect": [
+                "食事"
+            ],
+            "Category": [
+                "Food & Drinks#Quality"
+            ],
+            "Opinion": [
+                "おいしかった"
+            ]
+        },
+        "annotator_b": {
+            "ID": "25giPiU5mbQsZduAuaAW2g",
+            "Sentence": "食事がおいしかったとの報告を受けました",
+            "Aspect": [
+                "食事"
+            ],
+            "Category": [
+                "Food & Drinks#Quality"
+            ],
+            "Opinion": [
+                "おいしかった"
+            ]
+        }
+    },
+    "Hi-cYGWbkyfLublHrn1EhA": {
+        "sentence": "お風呂も最高で今までの中で1番だと思いました。",
+        "annotator_a": {
+            "ID": "Hi-cYGWbkyfLublHrn1EhA",
+            "Sentence": "お風呂も最高で今までの中で1番だと思いました。",
+            "Aspect": [
+                "お風呂",
+                "NULL"
+            ],
+            "Category": [
+                "Facilities#Quality",
+                "Hotel#General"
+            ],
+            "Opinion": [
+                "最高",
+                "今までの中で1番"
+            ]
+        },
+        "annotator_b": {
+            "ID": "Hi-cYGWbkyfLublHrn1EhA",
+            "Sentence": "お風呂も最高で今までの中で1番だと思いました。",
+            "Aspect": [
+                "お風呂"
+            ],
+            "Category": [
+                "Facilities#Quality"
+            ],
+            "Opinion": [
+                "最高"
+            ]
+        }
+    },
+    "aZUD6agawsfgKO3WY8kniQ": {
+        "sentence": "部屋は広く、清潔で満足しています。",
+        "annotator_a": {
+            "ID": "aZUD6agawsfgKO3WY8kniQ",
+            "Sentence": "部屋は広く、清潔で満足しています。",
+            "Aspect": [
+                "部屋",
+                "部屋",
+                "部屋"
+            ],
+            "Category": [
+                "Rooms#Comfort",
+                "Rooms#Cleanliness",
+                "Rooms#General"
+            ],
+            "Opinion": [
+                "広く",
+                "清潔",
+                "満足"
+            ]
+        },
+        "annotator_b": {
+            "ID": "aZUD6agawsfgKO3WY8kniQ",
+            "Sentence": "部屋は広く、清潔で満足しています。",
+            "Aspect": [
+                "部屋",
+                "部屋"
+            ],
+            "Category": [
+                "Rooms#Comfort",
+                "Rooms#Quality"
+            ],
+            "Opinion": [
+                "広く",
+                "満足"
+            ]
+        }
+    },
+    "3Cw-I27OnlsgOr8RxMUgWw": {
+        "sentence": "サウナ、朝食最高",
+        "annotator_a": {
+            "ID": "3Cw-I27OnlsgOr8RxMUgWw",
+            "Sentence": "サウナ、朝食最高",
+            "Aspect": [
+                "サウナ",
+                "朝食"
+            ],
+            "Category": [
+                "Facilities#Quality",
+                "Facilities#Quality"
+            ],
+            "Opinion": [
+                "最高",
+                "最高"
+            ]
+        },
+        "annotator_b": {
+            "ID": "3Cw-I27OnlsgOr8RxMUgWw",
+            "Sentence": "サウナ、朝食最高",
+            "Aspect": [
+                "サウナ",
+                "朝食"
+            ],
+            "Category": [
+                "Facilities#Quality",
+                "Food & Drinks#Quality"
+            ],
+            "Opinion": [
+                "最高",
+                "最高"
+            ]
+        }
+    },
+    "zZQzUhzWQchYvt0eJK0iqQ": {
+        "sentence": "その日はホテルが空いていたみたいで１つ部屋をグレードアップしていただいていました！",
+        "annotator_a": {
+            "ID": "zZQzUhzWQchYvt0eJK0iqQ",
+            "Sentence": "その日はホテルが空いていたみたいで１つ部屋をグレードアップしていただいていました！",
+            "Aspect": [
+                "部屋"
+            ],
+            "Category": [
+                "Service#Quality"
+            ],
+            "Opinion": [
+                "グレードアップ"
+            ]
+        },
+        "annotator_b": {
+            "ID": "zZQzUhzWQchYvt0eJK0iqQ",
+            "Sentence": "その日はホテルが空いていたみたいで１つ部屋をグレードアップしていただいていました！",
+            "Aspect": [
+                "グレードアップ"
+            ],
+            "Category": [
+                "Service#Quality"
+            ],
+            "Opinion": [
+                "していただいて"
+            ]
+        }
+    },
+    "Qub-IFRnR36VHbEt-oH8Pg": {
+        "sentence": "チェックインの際並んで待っていても平気で後の人を受付したし、他のカウンターが空いても此方から声を掛けないと平気でいるのでもう少し気遣いが欲しい。",
+        "annotator_a": {
+            "ID": "Qub-IFRnR36VHbEt-oH8Pg",
+            "Sentence": "チェックインの際並んで待っていても平気で後の人を受付したし、他のカウンターが空いても此方から声を掛けないと平気でいるのでもう少し気遣いが欲しい。",
+            "Aspect": [
+                "チェックイン"
+            ],
+            "Category": [
+                "Service#General"
+            ],
+            "Opinion": [
+                "気遣いが欲しい"
+            ]
+        },
+        "annotator_b": {
+            "ID": "Qub-IFRnR36VHbEt-oH8Pg",
+            "Sentence": "チェックインの際並んで待っていても平気で後の人を受付したし、他のカウンターが空いても此方から声を掛けないと平気でいるのでもう少し気遣いが欲しい。",
+            "Aspect": [
+                "チェックイン"
+            ],
+            "Category": [
+                "Service#Cleanliness"
+            ],
+            "Opinion": [
+                "もう少し気遣いが欲しい"
+            ]
+        }
+    },
+    "St20vL9ktN-1RkfUeq_V2A": {
+        "sentence": "全体的に綺麗で清潔感のあるホテルでした。",
+        "annotator_a": {
+            "ID": "St20vL9ktN-1RkfUeq_V2A",
+            "Sentence": "全体的に綺麗で清潔感のあるホテルでした。",
+            "Aspect": [
+                "ホテル",
+                "ホテル"
+            ],
+            "Category": [
+                "Hotel#Cleanliness",
+                "Hotel#Cleanliness"
+            ],
+            "Opinion": [
+                "綺麗",
+                "清潔感"
+            ]
+        },
+        "annotator_b": {
+            "ID": "St20vL9ktN-1RkfUeq_V2A",
+            "Sentence": "全体的に綺麗で清潔感のあるホテルでした。",
+            "Aspect": [
+                "ホテル"
+            ],
+            "Category": [
+                "Hotel#Cleanliness"
+            ],
+            "Opinion": [
+                "綺麗で清潔感のある"
+            ]
+        }
+    },
+    "dwIhAKc8f4UH99PDKlXbtw": {
+        "sentence": "掛布団カバーの両サイドに羽毛布団を引っ張る為のスリットがあって、補修用の布などで丁寧に繕われているならまだしも、乱暴に紙のガムテープで処理してあって、がっかりです。",
+        "annotator_a": {
+            "ID": "dwIhAKc8f4UH99PDKlXbtw",
+            "Sentence": "掛布団カバーの両サイドに羽毛布団を引っ張る為のスリットがあって、補修用の布などで丁寧に繕われているならまだしも、乱暴に紙のガムテープで処理してあって、がっかりです。",
+            "Aspect": [
+                "掛け布団カバー"
+            ],
+            "Category": [
+                "Room Amenities#Quality"
+            ],
+            "Opinion": [
+                "がっかり"
+            ]
+        },
+        "annotator_b": {
+            "ID": "dwIhAKc8f4UH99PDKlXbtw",
+            "Sentence": "掛布団カバーの両サイドに羽毛布団を引っ張る為のスリットがあって、補修用の布などで丁寧に繕われているならまだしも、乱暴に紙のガムテープで処理してあって、がっかりです。",
+            "Aspect": [
+                "掛布団カバー"
+            ],
+            "Category": [
+                "Rooms#Quality"
+            ],
+            "Opinion": [
+                "がっかり"
+            ]
+        }
+    },
+    "3WN9-yT4Y0eqvgtZbYUINg": {
+        "sentence": "立地が最高。",
+        "annotator_a": {
+            "ID": "3WN9-yT4Y0eqvgtZbYUINg",
+            "Sentence": "立地が最高。",
+            "Aspect": [
+                "立地"
+            ],
+            "Category": [
+                "Location#Quality"
+            ],
+            "Opinion": [
+                "最高"
+            ]
+        },
+        "annotator_b": {
+            "ID": "3WN9-yT4Y0eqvgtZbYUINg",
+            "Sentence": "立地が最高。",
+            "Aspect": [
+                "立地"
+            ],
+            "Category": [
+                "Location#Quality"
+            ],
+            "Opinion": [
+                "最古"
+            ]
+        }
+    },
+    "RHrEft86_2bYrCeaYOnwdw": {
+        "sentence": "オフィス街にあり，札幌駅へも歩いて行け，空港からのバス停も近くあり便利。",
+        "annotator_a": {
+            "ID": "RHrEft86_2bYrCeaYOnwdw",
+            "Sentence": "オフィス街にあり，札幌駅へも歩いて行け，空港からのバス停も近くあり便利。",
+            "Aspect": [
+                "NULL"
+            ],
+            "Category": [
+                "Location#General"
+            ],
+            "Opinion": [
+                "便利"
+            ]
+        },
+        "annotator_b": {
+            "ID": "RHrEft86_2bYrCeaYOnwdw",
+            "Sentence": "オフィス街にあり，札幌駅へも歩いて行け，空港からのバス停も近くあり便利。",
+            "Aspect": [
+                "オフィス街",
+                "札幌駅",
+                "バス停"
+            ],
+            "Category": [
+                "Location#Quality",
+                "Location#Comfort",
+                "Location#Comfort"
+            ],
+            "Opinion": [
+                "あり",
+                "行け",
+                "便利"
+            ]
+        }
+    },
+    "S6nfPRfBYji8f83VQ8RcAg": {
+        "sentence": "レトルトカレーを頂きプチ嬉しかったです。",
+        "annotator_a": {
+            "ID": "S6nfPRfBYji8f83VQ8RcAg",
+            "Sentence": "レトルトカレーを頂きプチ嬉しかったです。",
+            "Aspect": [
+                "レトルトカレー"
+            ],
+            "Category": [
+                "Service#Quality"
+            ],
+            "Opinion": [
+                "プチ嬉しかった"
+            ]
+        },
+        "annotator_b": {
+            "ID": "S6nfPRfBYji8f83VQ8RcAg",
+            "Sentence": "レトルトカレーを頂きプチ嬉しかったです。",
+            "Aspect": [
+                "レトルトカレー"
+            ],
+            "Category": [
+                "Service#Quality"
+            ],
+            "Opinion": [
+                "プチ嬉しかった"
+            ]
+        }
+    },
+    "p11eimsBxXRaIEXSaEM4Xg": {
+        "sentence": "接客もよく、ご飯も美味しく、お風呂もよく最高の旅行になりました！",
+        "annotator_a": {
+            "ID": "p11eimsBxXRaIEXSaEM4Xg",
+            "Sentence": "接客もよく、ご飯も美味しく、お風呂もよく最高の旅行になりました！",
+            "Aspect": [
+                "接客",
+                "ご飯",
+                "お風呂"
+            ],
+            "Category": [
+                "Service#Quality",
+                "Food & Drinks#Quality",
+                "Facilities#Quality"
+            ],
+            "Opinion": [
+                "よく",
+                "美味しく",
+                "よく"
+            ]
+        },
+        "annotator_b": {
+            "ID": "p11eimsBxXRaIEXSaEM4Xg",
+            "Sentence": "接客もよく、ご飯も美味しく、お風呂もよく最高の旅行になりました！",
+            "Aspect": [
+                "接客",
+                "ご飯",
+                "お風呂"
+            ],
+            "Category": [
+                "Service#Quality",
+                "Food & Drinks#Quality",
+                "Facilities#Quality"
+            ],
+            "Opinion": [
+                "よく",
+                "美味しく",
+                "よく"
+            ]
+        }
+    },
+    "dohMNNZVWma_t89NICvGfw": {
+        "sentence": "駅近だし、1人での宿泊なら充分です。",
+        "annotator_a": {
+            "ID": "dohMNNZVWma_t89NICvGfw",
+            "Sentence": "駅近だし、1人での宿泊なら充分です。",
+            "Aspect": [
+                "NULL"
+            ],
+            "Category": [
+                "Hotel#General"
+            ],
+            "Opinion": [
+                "充分"
+            ]
+        },
+        "annotator_b": {
+            "ID": "dohMNNZVWma_t89NICvGfw",
+            "Sentence": "駅近だし、1人での宿泊なら充分です。",
+            "Aspect": [
+                "駅近"
+            ],
+            "Category": [
+                "Location#Quality"
+            ],
+            "Opinion": [
+                "充分"
+            ]
+        }
+    },
+    "vrFCBTx7J1VM6vo1CUMF0A": {
+        "sentence": "美味しい朝食でした。",
+        "annotator_a": {
+            "ID": "vrFCBTx7J1VM6vo1CUMF0A",
+            "Sentence": "美味しい朝食でした。",
+            "Aspect": [
+                "朝食"
+            ],
+            "Category": [
+                "Food & Drinks#Quality"
+            ],
+            "Opinion": [
+                "美味しい"
+            ]
+        },
+        "annotator_b": {
+            "ID": "vrFCBTx7J1VM6vo1CUMF0A",
+            "Sentence": "美味しい朝食でした。",
+            "Aspect": [
+                "朝食"
+            ],
+            "Category": [
+                "Food & Drinks#Quality"
+            ],
+            "Opinion": [
+                "美味しい"
+            ]
+        }
+    },
+    "KcyehWxF-f-syTUSD_35Tw": {
+        "sentence": "部屋も広くコンビニもありとても快適でした。",
+        "annotator_a": {
+            "ID": "KcyehWxF-f-syTUSD_35Tw",
+            "Sentence": "部屋も広くコンビニもありとても快適でした。",
+            "Aspect": [
+                "部屋",
+                "NULL"
+            ],
+            "Category": [
+                "Rooms#Comfort",
+                "Hotel#Comfort"
+            ],
+            "Opinion": [
+                "広く",
+                "とても快適"
+            ]
+        },
+        "annotator_b": {
+            "ID": "KcyehWxF-f-syTUSD_35Tw",
+            "Sentence": "部屋も広くコンビニもありとても快適でした。",
+            "Aspect": [
+                "部屋",
+                "コンビニ",
+                "NULL"
+            ],
+            "Category": [
+                "Rooms#Comfort",
+                "Facilities#General",
+                "Hotel#Comfort"
+            ],
+            "Opinion": [
+                "広く",
+                "あり",
+                "快適"
+            ]
+        }
+    },
+    "OVzf1eVsmwGw3iGycILQXA": {
+        "sentence": "隣のコインランドリーの出入り音、上の階の足音が気になる部屋でしたので、評価を下げました。",
+        "annotator_a": {
+            "ID": "OVzf1eVsmwGw3iGycILQXA",
+            "Sentence": "隣のコインランドリーの出入り音、上の階の足音が気になる部屋でしたので、評価を下げました。",
+            "Aspect": [
+                "隣のコインランドリーの出入り音、上の階の足音"
+            ],
+            "Category": [
+                "Rooms#Comfort"
+            ],
+            "Opinion": [
+                "気になる"
+            ]
+        },
+        "annotator_b": {
+            "ID": "OVzf1eVsmwGw3iGycILQXA",
+            "Sentence": "隣のコインランドリーの出入り音、上の階の足音が気になる部屋でしたので、評価を下げました。",
+            "Aspect": [
+                "コインランドリーの出入り音",
+                "上の階の足音"
+            ],
+            "Category": [
+                "Rooms#Quality"
+            ],
+            "Opinion": [
+                "評価を下げ",
+                "評価を下げ"
+            ]
+        }
+    },
+    "COjLn3zzSajG5Dklj5qbbA": {
+        "sentence": "朝食のレストランが広々してて気持ち良いし、料理も美味しかったです。",
+        "annotator_a": {
+            "ID": "COjLn3zzSajG5Dklj5qbbA",
+            "Sentence": "朝食のレストランが広々してて気持ち良いし、料理も美味しかったです。",
+            "Aspect": [
+                "朝食のレストラン",
+                "朝食のレストラン",
+                "料理"
+            ],
+            "Category": [
+                "Food & Drinks#Comfort",
+                "Food & Drinks#Comfort",
+                "Food & Drinks#Quality"
+            ],
+            "Opinion": [
+                "広々",
+                "気持ち良い",
+                "美味しかった"
+            ]
+        },
+        "annotator_b": {
+            "ID": "COjLn3zzSajG5Dklj5qbbA",
+            "Sentence": "朝食のレストランが広々してて気持ち良いし、料理も美味しかったです。",
+            "Aspect": [
+                "レストラン",
+                "料理"
+            ],
+            "Category": [
+                "Facilities#Comfort",
+                "Food & Drinks#Quality"
+            ],
+            "Opinion": [
+                "気持ちいい",
+                "美味しかった"
+            ]
+        }
+    },
+    "YmbQ2rfrzqaj5YslnBwExw": {
+        "sentence": "アロマの貸し出しの際も、ワンちゃんにアレルギーはありませんか？の一言があって、とてもペットファーストなホテルで是非また利用したいです。",
+        "annotator_a": {
+            "ID": "YmbQ2rfrzqaj5YslnBwExw",
+            "Sentence": "アロマの貸し出しの際も、ワンちゃんにアレルギーはありませんか？の一言があって、とてもペットファーストなホテルで是非また利用したいです。",
+            "Aspect": [
+                "ホテル"
+            ],
+            "Category": [
+                "Service#Quality"
+            ],
+            "Opinion": [
+                "とてもペットファースト"
+            ]
+        },
+        "annotator_b": {
+            "ID": "YmbQ2rfrzqaj5YslnBwExw",
+            "Sentence": "アロマの貸し出しの際も、ワンちゃんにアレルギーはありませんか？の一言があって、とてもペットファーストなホテルで是非また利用したいです。",
+            "Aspect": [
+                "一言"
+            ],
+            "Category": [
+                "Service#Quality"
+            ],
+            "Opinion": [
+                "とてもペットファースト"
+            ]
+        }
+    },
+    "3PNFySeRZcdQuoH8jHJ3lQ": {
+        "sentence": "大浴場があり、湯船にゆっくりつかることができ満足です。",
+        "annotator_a": {
+            "ID": "3PNFySeRZcdQuoH8jHJ3lQ",
+            "Sentence": "大浴場があり、湯船にゆっくりつかることができ満足です。",
+            "Aspect": [
+                "大浴場"
+            ],
+            "Category": [
+                "Facilities#Quality"
+            ],
+            "Opinion": [
+                "満足"
+            ]
+        },
+        "annotator_b": {
+            "ID": "3PNFySeRZcdQuoH8jHJ3lQ",
+            "Sentence": "大浴場があり、湯船にゆっくりつかることができ満足です。",
+            "Aspect": [
+                "大浴場",
+                "湯舟"
+            ],
+            "Category": [
+                "Facilities#Quality"
+            ],
+            "Opinion": [
+                "あり",
+                "満足"
+            ]
+        }
+    },
+    "3f4ciChAa1m053eXKE0-XQ": {
+        "sentence": "周辺にはコンビニもあり便利でした。",
+        "annotator_a": {
+            "ID": "3f4ciChAa1m053eXKE0-XQ",
+            "Sentence": "周辺にはコンビニもあり便利でした。",
+            "Aspect": [
+                "コンビニ"
+            ],
+            "Category": [
+                "Location#General"
+            ],
+            "Opinion": [
+                "便利"
+            ]
+        },
+        "annotator_b": {
+            "ID": "3f4ciChAa1m053eXKE0-XQ",
+            "Sentence": "周辺にはコンビニもあり便利でした。",
+            "Aspect": [
+                "周辺"
+            ],
+            "Category": [
+                "Location#Comfort"
+            ],
+            "Opinion": [
+                "便利"
+            ]
+        }
+    },
+    "GQz6CmvRUJASRJj_GX5pAA": {
+        "sentence": "音や匂いなどを気にすることなく過ごすことができてリラックスできました。",
+        "annotator_a": {
+            "ID": "GQz6CmvRUJASRJj_GX5pAA",
+            "Sentence": "音や匂いなどを気にすることなく過ごすことができてリラックスできました。",
+            "Aspect": [
+                "NULL"
+            ],
+            "Category": [
+                "Hotel#Comfort"
+            ],
+            "Opinion": [
+                "リラックス"
+            ]
+        },
+        "annotator_b": {
+            "ID": "GQz6CmvRUJASRJj_GX5pAA",
+            "Sentence": "音や匂いなどを気にすることなく過ごすことができてリラックスできました。",
+            "Aspect": [
+                "音や匂い"
+            ],
+            "Category": [
+                "Rooms#Quality"
+            ],
+            "Opinion": [
+                "リラックス"
+            ]
+        }
+    },
+    "d4zaxEdWAenKsD9p9TF1cQ": {
+        "sentence": "近隣に飲食店も多くおすすめは地元のお寿司屋さん、たくさんお寿司屋さんがあり楽しいです。",
+        "annotator_a": {
+            "ID": "d4zaxEdWAenKsD9p9TF1cQ",
+            "Sentence": "近隣に飲食店も多くおすすめは地元のお寿司屋さん、たくさんお寿司屋さんがあり楽しいです。",
+            "Aspect": [
+                "飲食店",
+                "お寿司屋さん",
+                "お寿司屋さん"
+            ],
+            "Category": [
+                "Location#General",
+                "Food & Drinks#Style & Options",
+                "Food & Drinks#General"
+            ],
+            "Opinion": [
+                "多く",
+                "たくさん",
+                "楽しい"
+            ]
+        },
+        "annotator_b": {
+            "ID": "d4zaxEdWAenKsD9p9TF1cQ",
+            "Sentence": "近隣に飲食店も多くおすすめは地元のお寿司屋さん、たくさんお寿司屋さんがあり楽しいです。",
+            "Aspect": [
+                "飲食店",
+                "NULL"
+            ],
+            "Category": [
+                "Food & Drinks#Quality",
+                "Hotel#General"
+            ],
+            "Opinion": [
+                "多く",
+                "楽しい"
+            ]
+        }
+    },
+    "TGqnTyOOEoBPmCpFbkRrGA": {
+        "sentence": "すぐにフィードバックされているのは素晴らしいし、サービスの質が高いと思います。",
+        "annotator_a": {
+            "ID": "TGqnTyOOEoBPmCpFbkRrGA",
+            "Sentence": "すぐにフィードバックされているのは素晴らしいし、サービスの質が高いと思います。",
+            "Aspect": [
+                "フィードバック",
+                "サービスの質"
+            ],
+            "Category": [
+                "Service#Quality",
+                "Service#Quality"
+            ],
+            "Opinion": [
+                "素晴らしい",
+                "高い"
+            ]
+        },
+        "annotator_b": {
+            "ID": "TGqnTyOOEoBPmCpFbkRrGA",
+            "Sentence": "すぐにフィードバックされているのは素晴らしいし、サービスの質が高いと思います。",
+            "Aspect": [
+                "フィードバック",
+                "サービス"
+            ],
+            "Category": [
+                "Service#Quality",
+                "Service#Quality"
+            ],
+            "Opinion": [
+                "素晴らしい",
+                "高い"
+            ]
+        }
+    },
+    "th9oP8cU3VXPa3debrM2EQ": {
+        "sentence": "お風呂上がりのラウンジがとても良いサービスでした",
+        "annotator_a": {
+            "ID": "th9oP8cU3VXPa3debrM2EQ",
+            "Sentence": "お風呂上がりのラウンジがとても良いサービスでした",
+            "Aspect": [
+                "お風呂あがりのラウンジ"
+            ],
+            "Category": [
+                "Facilities#Quality"
+            ],
+            "Opinion": [
+                "とても良い"
+            ]
+        },
+        "annotator_b": {
+            "ID": "th9oP8cU3VXPa3debrM2EQ",
+            "Sentence": "お風呂上がりのラウンジがとても良いサービスでした",
+            "Aspect": [
+                "ラウンジ"
+            ],
+            "Category": [
+                "Facilities#Quality"
+            ],
+            "Opinion": [
+                "とても良い"
+            ]
+        }
+    },
+    "SH6a_er5y4zVrMzvXoHeQw": {
+        "sentence": "寝巻のサイズを特大指定してから以降、ネットで申し込んでいますが毎回特大を用意してもらっています。",
+        "annotator_a": {
+            "ID": "SH6a_er5y4zVrMzvXoHeQw",
+            "Sentence": "寝巻のサイズを特大指定してから以降、ネットで申し込んでいますが毎回特大を用意してもらっています。",
+            "Aspect": [
+                "寝巻"
+            ],
+            "Category": [
+                "Service#Quality"
+            ],
+            "Opinion": [
+                "用意して"
+            ]
+        },
+        "annotator_b": {
+            "ID": "SH6a_er5y4zVrMzvXoHeQw",
+            "Sentence": "寝巻のサイズを特大指定してから以降、ネットで申し込んでいますが毎回特大を用意してもらっています。",
+            "Aspect": [
+                "寝巻のサイズ"
+            ],
+            "Category": [
+                "Service#Quality"
+            ],
+            "Opinion": [
+                "用意してもらって"
+            ]
+        }
+    },
+    "6S2tJk53Q9eFQjtSETf33w": {
+        "sentence": "立地が良くて便利です。",
+        "annotator_a": {
+            "ID": "6S2tJk53Q9eFQjtSETf33w",
+            "Sentence": "立地が良くて便利です。",
+            "Aspect": [
+                "立地",
+                "立地"
+            ],
+            "Category": [
+                "Location#General",
+                "Location#General"
+            ],
+            "Opinion": [
+                "良くて",
+                "便利"
+            ]
+        },
+        "annotator_b": {
+            "ID": "6S2tJk53Q9eFQjtSETf33w",
+            "Sentence": "立地が良くて便利です。",
+            "Aspect": [
+                "立地"
+            ],
+            "Category": [
+                "Location#Comfort"
+            ],
+            "Opinion": [
+                "良くて便利"
+            ]
+        }
+    },
+    "qYXUlWT6ZyfNzOJ5-PdTNA": {
+        "sentence": "大浴場、露天風呂は最高でした！",
+        "annotator_a": {
+            "ID": "qYXUlWT6ZyfNzOJ5-PdTNA",
+            "Sentence": "大浴場、露天風呂は最高でした！",
+            "Aspect": [
+                "大浴場",
+                "露天風呂"
+            ],
+            "Category": [
+                "Facilities#Quality",
+                "Facilities#Quality"
+            ],
+            "Opinion": [
+                "最高",
+                "最高"
+            ]
+        },
+        "annotator_b": {
+            "ID": "qYXUlWT6ZyfNzOJ5-PdTNA",
+            "Sentence": "大浴場、露天風呂は最高でした！",
+            "Aspect": [
+                "大浴場",
+                "露天風呂"
+            ],
+            "Category": [
+                "Facilities#Quality",
+                "Facilities#Quality"
+            ],
+            "Opinion": [
+                "最高",
+                "最高"
+            ]
+        }
+    },
+    "N55Kbg3AGrjY8OtroqpA2Q": {
+        "sentence": "快適に過ごさせて頂きました。",
+        "annotator_a": {
+            "ID": "N55Kbg3AGrjY8OtroqpA2Q",
+            "Sentence": "快適に過ごさせて頂きました。",
+            "Aspect": [
+                "NULL"
+            ],
+            "Category": [
+                "Hotel#Comfort"
+            ],
+            "Opinion": [
+                "快適"
+            ]
+        },
+        "annotator_b": {
+            "ID": "N55Kbg3AGrjY8OtroqpA2Q",
+            "Sentence": "快適に過ごさせて頂きました。",
+            "Aspect": [
+                "NULL"
+            ],
+            "Category": [
+                "Hotel#Comfort"
+            ],
+            "Opinion": [
+                "快適"
+            ]
+        }
+    },
+    "FJZNAj8biYi3-Khm-mHTUQ": {
+        "sentence": "ベッド際にコンセントがない。",
+        "annotator_a": {
+            "ID": "FJZNAj8biYi3-Khm-mHTUQ",
+            "Sentence": "ベッド際にコンセントがない。",
+            "Aspect": [
+                "ベッド際"
+            ],
+            "Category": [
+                "Facilities#Style & Options"
+            ],
+            "Opinion": [
+                "ない"
+            ]
+        },
+        "annotator_b": {
+            "ID": "FJZNAj8biYi3-Khm-mHTUQ",
+            "Sentence": "ベッド際にコンセントがない。",
+            "Aspect": [
+                "ベッド際"
+            ],
+            "Category": [
+                "Rooms#Quality"
+            ],
+            "Opinion": [
+                "ない"
+            ]
+        }
+    },
+    "ru6xaJ80iPFZmpRdsgEaUQ": {
+        "sentence": "アメニティも豊富でよかったとのことです。",
+        "annotator_a": {
+            "ID": "ru6xaJ80iPFZmpRdsgEaUQ",
+            "Sentence": "アメニティも豊富でよかったとのことです。",
+            "Aspect": [
+                "アメニティ",
+                "アメニティ"
+            ],
+            "Category": [
+                "Room Amenities#Style & Options",
+                "Room Amenities#Quality"
+            ],
+            "Opinion": [
+                "豊富",
+                "よかった"
+            ]
+        },
+        "annotator_b": {
+            "ID": "ru6xaJ80iPFZmpRdsgEaUQ",
+            "Sentence": "アメニティも豊富でよかったとのことです。",
+            "Aspect": [
+                "アメニティ"
+            ],
+            "Category": [
+                "Room Amenities#Quality"
+            ],
+            "Opinion": [
+                "よかった"
+            ]
+        }
+    },
+    "AF3lbqcij1VImTqmY0qOEQ": {
+        "sentence": "部屋がきれいでした。",
+        "annotator_a": {
+            "ID": "AF3lbqcij1VImTqmY0qOEQ",
+            "Sentence": "部屋がきれいでした。",
+            "Aspect": [
+                "部屋"
+            ],
+            "Category": [
+                "Rooms#Cleanliness"
+            ],
+            "Opinion": [
+                "きれい"
+            ]
+        },
+        "annotator_b": {
+            "ID": "AF3lbqcij1VImTqmY0qOEQ",
+            "Sentence": "部屋がきれいでした。",
+            "Aspect": [
+                "部屋"
+            ],
+            "Category": [
+                "Rooms#Quality"
+            ],
+            "Opinion": [
+                "きれい"
+            ]
+        }
+    },
+    "S_mi8BPTqJroeAKNC31mkQ": {
+        "sentence": "路面電車の駅が近くにあり、移動しやすい中心街で、買い物に行くにも便利でした。",
+        "annotator_a": {
+            "ID": "S_mi8BPTqJroeAKNC31mkQ",
+            "Sentence": "路面電車の駅が近くにあり、移動しやすい中心街で、買い物に行くにも便利でした。",
+            "Aspect": [
+                "NULL",
+                "NULL",
+                "買い物"
+            ],
+            "Category": [
+                "Location#General",
+                "Location#General",
+                "Location#General"
+            ],
+            "Opinion": [
+                "近く",
+                "移動しやすい",
+                "便利"
+            ]
+        },
+        "annotator_b": {
+            "ID": "S_mi8BPTqJroeAKNC31mkQ",
+            "Sentence": "路面電車の駅が近くにあり、移動しやすい中心街で、買い物に行くにも便利でした。",
+            "Aspect": [
+                "駅"
+            ],
+            "Category": [
+                "Location#Comfort"
+            ],
+            "Opinion": [
+                "便利"
+            ]
+        }
+    },
+    "VqZKJAS1q-91iblPDmd-DQ": {
+        "sentence": "駅からの距離があり、食事・ショッピングにも便利な立地とは言えません。",
+        "annotator_a": {
+            "ID": "VqZKJAS1q-91iblPDmd-DQ",
+            "Sentence": "駅からの距離があり、食事・ショッピングにも便利な立地とは言えません。",
+            "Aspect": [
+                "立地"
+            ],
+            "Category": [
+                "Location#General"
+            ],
+            "Opinion": [
+                "便利"
+            ]
+        },
+        "annotator_b": {
+            "ID": "VqZKJAS1q-91iblPDmd-DQ",
+            "Sentence": "駅からの距離があり、食事・ショッピングにも便利な立地とは言えません。",
+            "Aspect": [
+                "駅"
+            ],
+            "Category": [
+                "Location#Comfort"
+            ],
+            "Opinion": [
+                "便利な立地とは"
+            ]
+        }
+    },
+    "qnGUfD5v7HKMih_1FzgU3w": {
+        "sentence": "荷物預けるのはいいけど、受け取りの時チェックインの長蛇の列に巻き込まれ、帰りの時間が危なくなるのを心配してました",
+        "annotator_a": {
+            "ID": "qnGUfD5v7HKMih_1FzgU3w",
+            "Sentence": "荷物預けるのはいいけど、受け取りの時チェックインの長蛇の列に巻き込まれ、帰りの時間が危なくなるのを心配してました",
+            "Aspect": [
+                "チェックイン"
+            ],
+            "Category": [
+                "Service#Quality"
+            ],
+            "Opinion": [
+                "心配"
+            ]
+        },
+        "annotator_b": {
+            "ID": "qnGUfD5v7HKMih_1FzgU3w",
+            "Sentence": "荷物預けるのはいいけど、受け取りの時チェックインの長蛇の列に巻き込まれ、帰りの時間が危なくなるのを心配してました",
+            "Aspect": [
+                "荷物預ける",
+                "受け取りの時"
+            ],
+            "Category": [
+                "Service#Quality",
+                "Service#Quality"
+            ],
+            "Opinion": [
+                "いい",
+                "心配"
+            ]
+        }
+    },
+    "7XazuHQl3mXT0mScDokDqA": {
+        "sentence": "朝食も多くの種類でどれも食べたいほど充実していました。",
+        "annotator_a": {
+            "ID": "7XazuHQl3mXT0mScDokDqA",
+            "Sentence": "朝食も多くの種類でどれも食べたいほど充実していました。",
+            "Aspect": [
+                "朝食",
+                "朝食"
+            ],
+            "Category": [
+                "Food & Drinks#Style & Options",
+                "Food & Drinks#Style & Options"
+            ],
+            "Opinion": [
+                "多く",
+                "充実"
+            ]
+        },
+        "annotator_b": {
+            "ID": "7XazuHQl3mXT0mScDokDqA",
+            "Sentence": "朝食も多くの種類でどれも食べたいほど充実していました。",
+            "Aspect": [
+                "朝食"
+            ],
+            "Category": [
+                "Food & Drinks#Quality"
+            ],
+            "Opinion": [
+                "充実して"
+            ]
+        }
+    },
+    "#NAME?": {
+        "sentence": "今回も非常に満足のいくサービスでした。",
+        "annotator_a": {
+            "ID": "#NAME?",
+            "Sentence": "今回も非常に満足のいくサービスでした。",
+            "Aspect": [
+                "サービス"
+            ],
+            "Category": [
+                "Service#Quality"
+            ],
+            "Opinion": [
+                "非常に満足"
+            ]
+        },
+        "annotator_b": {
+            "ID": "#NAME?",
+            "Sentence": "今回も非常に満足のいくサービスでした。",
+            "Aspect": [
+                "サービス"
+            ],
+            "Category": [
+                "Service#Quality"
+            ],
+            "Opinion": [
+                "非常に満足のいく"
+            ]
+        }
+    },
+    "mxbsNcvp7uO6p5HPXRIC5g": {
+        "sentence": "札幌駅の真正面にあり、とても便利です。",
+        "annotator_a": {
+            "ID": "mxbsNcvp7uO6p5HPXRIC5g",
+            "Sentence": "札幌駅の真正面にあり、とても便利です。",
+            "Aspect": [
+                "NULL"
+            ],
+            "Category": [
+                "Location#General"
+            ],
+            "Opinion": [
+                "とても便利"
+            ]
+        },
+        "annotator_b": {
+            "ID": "mxbsNcvp7uO6p5HPXRIC5g",
+            "Sentence": "札幌駅の真正面にあり、とても便利です。",
+            "Aspect": [
+                "札幌駅"
+            ],
+            "Category": [
+                "Location#Quality"
+            ],
+            "Opinion": [
+                "とても便利"
+            ]
+        }
+    },
+    "ZpQ6ZzeY6yYSB8jw4JySHQ": {
+        "sentence": "大浴場付きはこの値段では他では絶対に味わう事はないと感動しました。",
+        "annotator_a": {
+            "ID": "ZpQ6ZzeY6yYSB8jw4JySHQ",
+            "Sentence": "大浴場付きはこの値段では他では絶対に味わう事はないと感動しました。",
+            "Aspect": [
+                "この値段"
+            ],
+            "Category": [
+                "Hotel#Price"
+            ],
+            "Opinion": [
+                "感動"
+            ]
+        },
+        "annotator_b": {
+            "ID": "ZpQ6ZzeY6yYSB8jw4JySHQ",
+            "Sentence": "大浴場付きはこの値段では他では絶対に味わう事はないと感動しました。",
+            "Aspect": [
+                "大浴場付き"
+            ],
+            "Category": [
+                "Facilities#Quality"
+            ],
+            "Opinion": [
+                "感動した"
+            ]
+        }
+    },
+    "f68P_POpZNQKedV7jWbR4A": {
+        "sentence": "とても広く広いお部屋で、快適に過ごす事ができました。",
+        "annotator_a": {
+            "ID": "f68P_POpZNQKedV7jWbR4A",
+            "Sentence": "とても広く広いお部屋で、快適に過ごす事ができました。",
+            "Aspect": [
+                "お部屋",
+                "お部屋"
+            ],
+            "Category": [
+                "Rooms#Comfort",
+                "Rooms#Comfort"
+            ],
+            "Opinion": [
+                "とても広く",
+                "快適"
+            ]
+        },
+        "annotator_b": {
+            "ID": "f68P_POpZNQKedV7jWbR4A",
+            "Sentence": "とても広く広いお部屋で、快適に過ごす事ができました。",
+            "Aspect": [
+                "お部屋",
+                "NULL"
+            ],
+            "Category": [
+                "Rooms#Quality",
+                "Hotel#Comfort"
+            ],
+            "Opinion": [
+                "とても広く",
+                "快適"
+            ]
+        }
+    },
+    "kZpWaB_YRRedUEsiPaXcBw": {
+        "sentence": "温泉も良く、食事も良く、快適にリラックスして過ごすことができました。",
+        "annotator_a": {
+            "ID": "kZpWaB_YRRedUEsiPaXcBw",
+            "Sentence": "温泉も良く、食事も良く、快適にリラックスして過ごすことができました。",
+            "Aspect": [
+                "温泉",
+                "食事",
+                "NULL",
+                "NULL"
+            ],
+            "Category": [
+                "Facilities#Quality",
+                "Food & Drinks#Quality",
+                "Hotel#Comfort",
+                "Hotel#Comfort"
+            ],
+            "Opinion": [
+                "良く",
+                "良く",
+                "快適",
+                "リラックス"
+            ]
+        },
+        "annotator_b": {
+            "ID": "kZpWaB_YRRedUEsiPaXcBw",
+            "Sentence": "温泉も良く、食事も良く、快適にリラックスして過ごすことができました。",
+            "Aspect": [
+                "温泉",
+                "食事",
+                "NULL"
+            ],
+            "Category": [
+                "Facilities#Quality",
+                "Food & Drinks#Quality",
+                "Hotel#Comfort"
+            ],
+            "Opinion": [
+                "良く",
+                "良く",
+                "快適にリラックス"
+            ]
+        }
+    },
+    "1cFhqre5lMmlh09r9iJzBQ": {
+        "sentence": "勝手丼を作るのが楽しくて、美味しく感じられました。",
+        "annotator_a": {
+            "ID": "1cFhqre5lMmlh09r9iJzBQ",
+            "Sentence": "勝手丼を作るのが楽しくて、美味しく感じられました。",
+            "Aspect": [
+                "勝手丼",
+                "勝手丼"
+            ],
+            "Category": [
+                "Food & Drinks#General",
+                "Food & Drinks#Quality"
+            ],
+            "Opinion": [
+                "楽しくて",
+                "美味しく"
+            ]
+        },
+        "annotator_b": {
+            "ID": "1cFhqre5lMmlh09r9iJzBQ",
+            "Sentence": "勝手丼を作るのが楽しくて、美味しく感じられました。",
+            "Aspect": [
+                "勝手丼",
+                "勝手丼"
+            ],
+            "Category": [
+                "Food & Drinks#Style & Options",
+                "Food & Drinks#Quality"
+            ],
+            "Opinion": [
+                "楽しくて",
+                "美味しく"
+            ]
+        }
+    },
+    "tNQojz7Abm3jefxH9XdAlw": {
+        "sentence": "タバコのニオイは確かにしましたが、空気清浄機を稼働していると気になるほどではなくリーズナブルに宿泊できました。",
+        "annotator_a": {
+            "ID": "tNQojz7Abm3jefxH9XdAlw",
+            "Sentence": "タバコのニオイは確かにしましたが、空気清浄機を稼働していると気になるほどではなくリーズナブルに宿泊できました。",
+            "Aspect": [
+                "NULL"
+            ],
+            "Category": [
+                "Hotel#Price"
+            ],
+            "Opinion": [
+                "リーズナブル"
+            ]
+        },
+        "annotator_b": {
+            "ID": "tNQojz7Abm3jefxH9XdAlw",
+            "Sentence": "タバコのニオイは確かにしましたが、空気清浄機を稼働していると気になるほどではなくリーズナブルに宿泊できました。",
+            "Aspect": [
+                "タバコのニオイ",
+                "NULL"
+            ],
+            "Category": [
+                "Rooms#Quality",
+                "Hotel#Quality"
+            ],
+            "Opinion": [
+                "した",
+                "リーズナブル"
+            ]
+        }
+    },
+    "g9AnQZpc_7lci7lc_I_bsg": {
+        "sentence": "大浴場のシャンプーバーがちょっとした息抜きになり良かったです。",
+        "annotator_a": {
+            "ID": "g9AnQZpc_7lci7lc_I_bsg",
+            "Sentence": "大浴場のシャンプーバーがちょっとした息抜きになり良かったです。",
+            "Aspect": [
+                "大浴場のシャンプーバー"
+            ],
+            "Category": [
+                "Facilities#Comfort"
+            ],
+            "Opinion": [
+                "良かった"
+            ]
+        },
+        "annotator_b": {
+            "ID": "g9AnQZpc_7lci7lc_I_bsg",
+            "Sentence": "大浴場のシャンプーバーがちょっとした息抜きになり良かったです。",
+            "Aspect": [
+                "シャンプーバー"
+            ],
+            "Category": [
+                "Facilities#Comfort"
+            ],
+            "Opinion": [
+                "良かった"
+            ]
+        }
+    },
+    "oNo_strWXae7V_uKs4q72A": {
+        "sentence": "部屋は広く静かで良い感じで寝具もクッション性がよくゆっくり眠れました。",
+        "annotator_a": {
+            "ID": "oNo_strWXae7V_uKs4q72A",
+            "Sentence": "部屋は広く静かで良い感じで寝具もクッション性がよくゆっくり眠れました。",
+            "Aspect": [
+                "部屋",
+                "部屋",
+                "部屋",
+                "寝具"
+            ],
+            "Category": [
+                "Rooms#Comfort",
+                "Rooms#Comfort",
+                "Rooms#Quality",
+                "Facilities#Quality"
+            ],
+            "Opinion": [
+                "広く",
+                "静か",
+                "良い感じ",
+                "クッション性がよく"
+            ]
+        },
+        "annotator_b": {
+            "ID": "oNo_strWXae7V_uKs4q72A",
+            "Sentence": "部屋は広く静かで良い感じで寝具もクッション性がよくゆっくり眠れました。",
+            "Aspect": [
+                "部屋",
+                "寝具"
+            ],
+            "Category": [
+                "Rooms#Quality",
+                "Rooms#Quality"
+            ],
+            "Opinion": [
+                "良い感じ",
+                "ゆっくり眠れ"
+            ]
+        }
+    },
+    "xIiZMR34floSIiThuuAyPQ": {
+        "sentence": "駅前で飲食店、コンビニも近くにありとても便利な立地です。",
+        "annotator_a": {
+            "ID": "xIiZMR34floSIiThuuAyPQ",
+            "Sentence": "駅前で飲食店、コンビニも近くにありとても便利な立地です。",
+            "Aspect": [
+                "立地"
+            ],
+            "Category": [
+                "Location#Comfort"
+            ],
+            "Opinion": [
+                "便利"
+            ]
+        },
+        "annotator_b": {
+            "ID": "xIiZMR34floSIiThuuAyPQ",
+            "Sentence": "駅前で飲食店、コンビニも近くにありとても便利な立地です。",
+            "Aspect": [
+                "駅前",
+                "飲食店",
+                "コンビニ"
+            ],
+            "Category": [
+                "Location#Comfort"
+            ],
+            "Opinion": [
+                "とても便利",
+                "とても便利",
+                "とても便利"
+            ]
+        }
+    },
+    "ZB_nS5MLKjFT9q2SQ0fWxQ": {
+        "sentence": "オープンして間も無いだけあり、とても綺麗でした！",
+        "annotator_a": {
+            "ID": "ZB_nS5MLKjFT9q2SQ0fWxQ",
+            "Sentence": "オープンして間も無いだけあり、とても綺麗でした！",
+            "Aspect": [
+                "NULL"
+            ],
+            "Category": [
+                "Hotel#Cleanliness"
+            ],
+            "Opinion": [
+                "とても綺麗"
+            ]
+        },
+        "annotator_b": {
+            "ID": "ZB_nS5MLKjFT9q2SQ0fWxQ",
+            "Sentence": "オープンして間も無いだけあり、とても綺麗でした！",
+            "Aspect": [
+                "NULL"
+            ],
+            "Category": [
+                "Hotel#Cleanliness"
+            ],
+            "Opinion": [
+                "とても綺麗"
+            ]
+        }
+    },
+    "VJOsZ0AGFwWFsNLsASdVNA": {
+        "sentence": "露天風呂が最高ですねー、サウナがあれば100点満点",
+        "annotator_a": {
+            "ID": "VJOsZ0AGFwWFsNLsASdVNA",
+            "Sentence": "露天風呂が最高ですねー、サウナがあれば100点満点",
+            "Aspect": [
+                "露天風呂"
+            ],
+            "Category": [
+                "Facilities#Quality"
+            ],
+            "Opinion": [
+                "最高"
+            ]
+        },
+        "annotator_b": {
+            "ID": "VJOsZ0AGFwWFsNLsASdVNA",
+            "Sentence": "露天風呂が最高ですねー、サウナがあれば100点満点",
+            "Aspect": [
+                "露天風呂"
+            ],
+            "Category": [
+                "Facilities#Quality"
+            ],
+            "Opinion": [
+                "最高"
+            ]
+        }
+    },
+    "dMo7ROL1e9aL7f_7t03ISQ": {
+        "sentence": "バス・トイレの段差がないのは良いと思います。",
+        "annotator_a": {
+            "ID": "dMo7ROL1e9aL7f_7t03ISQ",
+            "Sentence": "バス・トイレの段差がないのは良いと思います。",
+            "Aspect": [
+                "バス・トイレの段差"
+            ],
+            "Category": [
+                "Facilities#Comfort"
+            ],
+            "Opinion": [
+                "良い"
+            ]
+        },
+        "annotator_b": {
+            "ID": "dMo7ROL1e9aL7f_7t03ISQ",
+            "Sentence": "バス・トイレの段差がないのは良いと思います。",
+            "Aspect": [
+                "バス・トイレの段差"
+            ],
+            "Category": [
+                "Facilities#Quality"
+            ],
+            "Opinion": [
+                "良い"
+            ]
+        }
+    },
+    "BNp7KVO1BeehZUJWmC7qaA": {
+        "sentence": "お湯もよく浴場その他も清潔で安心です。",
+        "annotator_a": {
+            "ID": "BNp7KVO1BeehZUJWmC7qaA",
+            "Sentence": "お湯もよく浴場その他も清潔で安心です。",
+            "Aspect": [
+                "お湯",
+                "浴場その他",
+                "浴場その他"
+            ],
+            "Category": [
+                "Facilities#Quality",
+                "Facilities#Cleanliness",
+                "Facilities#Quality"
+            ],
+            "Opinion": [
+                "よく",
+                "清潔",
+                "安心"
+            ]
+        },
+        "annotator_b": {
+            "ID": "BNp7KVO1BeehZUJWmC7qaA",
+            "Sentence": "お湯もよく浴場その他も清潔で安心です。",
+            "Aspect": [
+                "お湯",
+                "浴場その他"
+            ],
+            "Category": [
+                "Facilities#Quality",
+                "Facilities#Cleanliness"
+            ],
+            "Opinion": [
+                "よく",
+                "安心"
+            ]
+        }
+    },
+    "pB9Ov76F5hOJ0Vjv-g42vQ": {
+        "sentence": "ここの朝食はいつ来ても美味しいです。",
+        "annotator_a": {
+            "ID": "pB9Ov76F5hOJ0Vjv-g42vQ",
+            "Sentence": "ここの朝食はいつ来ても美味しいです。",
+            "Aspect": [
+                "朝食"
+            ],
+            "Category": [
+                "Food & Drinks#Quality"
+            ],
+            "Opinion": [
+                "美味しい"
+            ]
+        },
+        "annotator_b": {
+            "ID": "pB9Ov76F5hOJ0Vjv-g42vQ",
+            "Sentence": "ここの朝食はいつ来ても美味しいです。",
+            "Aspect": [
+                "朝食"
+            ],
+            "Category": [
+                "Food & Drinks#Quality"
+            ],
+            "Opinion": [
+                "美味しい"
+            ]
+        }
+    },
+    "fXtxa-Z6Keur5zpeelWCiQ": {
+        "sentence": "とてもキレイなホテルでした。",
+        "annotator_a": {
+            "ID": "fXtxa-Z6Keur5zpeelWCiQ",
+            "Sentence": "とてもキレイなホテルでした。",
+            "Aspect": [
+                "ホテル"
+            ],
+            "Category": [
+                "Hotel#Cleanliness"
+            ],
+            "Opinion": [
+                "とてもキレイ"
+            ]
+        },
+        "annotator_b": {
+            "ID": "fXtxa-Z6Keur5zpeelWCiQ",
+            "Sentence": "とてもキレイなホテルでした。",
+            "Aspect": [
+                "ホテル"
+            ],
+            "Category": [
+                "Hotel#Cleanliness"
+            ],
+            "Opinion": [
+                "とてもキレイ"
+            ]
+        }
+    },
+    "ndJugi5N_fKZxlHWdLOI2w": {
+        "sentence": "朝食以外は良かったです。",
+        "annotator_a": {
+            "ID": "ndJugi5N_fKZxlHWdLOI2w",
+            "Sentence": "朝食以外は良かったです。",
+            "Aspect": [
+                "朝食以外"
+            ],
+            "Category": [
+                "Hotel#General"
+            ],
+            "Opinion": [
+                "良かった"
+            ]
+        },
+        "annotator_b": {
+            "ID": "ndJugi5N_fKZxlHWdLOI2w",
+            "Sentence": "朝食以外は良かったです。",
+            "Aspect": [
+                "朝食以外"
+            ],
+            "Category": [
+                "Food & Drinks#Quality"
+            ],
+            "Opinion": [
+                "良かった"
+            ]
+        }
+    }
+}
